@@ -26,6 +26,7 @@
     <link href="style.css" media="screen" rel="stylesheet">
 </head>
 <body>
+
      
 
 <!-- Spinner -->
@@ -46,8 +47,8 @@
                     <a href="#" class="menu-icon"></a>
                     <a href="index.html">HOME</a>
                     <ul class="sub-menu">
-                        <li class="active-item"><a href="index.html">HOME SLIDER</a></li>
-                        <li><a href="index-2.html">HOME VIDEO</a></li>
+                        <li><a href="index.html">HOME SLIDER</a></li>
+                        <li class="active-item"><a href="index-2.html">HOME VIDEO</a></li>
                     </ul>
                 </li>
                 <li class="menu-item-has-children">
@@ -93,7 +94,7 @@
 <!-- End Theme Menu -->
 <div id="page" class="site invisible">
     <!-- Header -->
-    <header class="header">
+    <header class="header header-light">
         <div class="menu-link-wrap">
             <a href="#" class="menu-link">
                 <span></span>
@@ -109,58 +110,29 @@
         </div>
     </header>
     <!-- End Header -->
-    <!-- HomePage Slider -->
-    <section class="home-slider">
-        <div id="home-slider" class="carousel slide" data-ride="carousel">
-            <!-- Wrapper for slides -->
-            <!-- Slider 1 -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active" style="background-image: url('images/Home-Slider/slide-1.jpg')">
-                    <div class="itable">
-                        <div class="icell">
-                            <div class="slider-content">
-                                <h2 class="slider-title-before">HANDMADE BASICS WITH STYLE AND QUALITY</h2>
-                                <h1 class="slider-title">Back to Black</h1>
-                                <a href="shop.html" class="btn btn-1"><span>start shopping now</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Slider 2 -->
-                <div class="item" style="background-image: url('images/Home-Slider/slide-2.jpg')">
-                    <div class="itable">
-                        <div class="icell">
-                            <div class="slider-content">
-                                <h2 class="slider-title-before">HANDMADE BASICS WITH STYLE AND QUALITY</h2>
-                                <h1 class="slider-title">Modern & Edgy</h1>
-                                <a href="shop.html" class="btn btn-1"><span>start shopping now</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Slider 3 -->
-                <div class="item" style="background-image: url('images/Home-Slider/slide-3.jpg')">
-                    <div class="itable">
-                        <div class="icell">
-                            <div class="slider-content">
-                                <h2 class="slider-title-before">HANDMADE BASICS WITH STYLE AND QUALITY</h2>
-                                <h1 class="slider-title">Major Comeback</h1>
-                                <a href="shop.html" class="btn btn-1"><span>start shopping now</span></a>
-                            </div>
+    <!-- HomePage Video -->
+    <div class="home-video">
+        <div class="wrap-video-content">
+            <div class="itable">
+                <div class="icell">
+                    <div class="video-content">
+                        <div class="home-info">
+                            <h2 class="video-title-before">HANDMADE BASICS WITH STYLE AND QUALITY</h2>
+                            <h1 class="video-title">Modern & Edgy</h1>
+                            <a href="shop.html" class="btn btn-1"><span>start shopping now</span></a>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#home-slider" data-slide-to="0" class="active"></li>
-                <li data-target="#home-slider" data-slide-to="1"></li>
-                <li data-target="#home-slider" data-slide-to="2"></li>
-            </ol>
         </div>
-    </section>
-    <!-- End HomePage Slider -->
+        <div class="video">
+            <video width="100%" height="auto" autoplay="autoplay" loop="loop" preload="auto" muted="muted" poster="images/Home-Video/the-new-skinny-poster.jpg">
+                <source src="images/Home-Video/the-new-skinny.mp4" type="video/mp4"/>
+                <source src="images/Home-Video/the-new-skinny.webm" type="video/webm">
+            </video>
+        </div>
+    </div>
+    <!-- End HomePage Video -->
 </div>
 <!-- Shop Cart -->
 <div class="cart-wrapper">
@@ -243,8 +215,6 @@
 
 <!-- Input Number 'Spinner' -->
 <script src="js/jquery.spinner.js"></script>
-<!-- Slider Touch Swipe -->
-<script src="js/jquery.touchSwipe.min.js"></script>
 
 <!--General JS-->
 <script src="js/general.js"></script>
