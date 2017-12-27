@@ -19,7 +19,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 | Please see the user guide for complete details:
 |
-|	https://codeigniter.com/user_guide/general/routing.html
+|	http://codeigniter.com/user_guide/general/routing.html
 |
 | -------------------------------------------------------------------------
 | RESERVED ROUTES
@@ -49,6 +49,44 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'welcome';
-$route['404_override'] = '';
-$route['translate_uri_dashes'] = FALSE;
+
+$route['feed.xml'] 								= 'news/feed';
+
+$route['page/(:num).html'] 						= 'news/page/$1';
+
+$route['category/(:num)/page/(:num).html'] 		= 'news/category/$1/$2';
+
+$route['category/(:num).html']					= 'news/category/$1';
+
+$route['tags/(:num)/page/(:num).html'] 			= 'news/tags/$1/$2';
+
+$route['tags/(:num).html'] 						= 'news/tags/$1';
+
+$route['archive/(:any)/page/(:num).html'] 		= 'news/archive/$1/$2';
+
+$route['archive/(:num).html']					= 'news/archive/$1';
+
+$route['news/(.+).html'] 						= 'news/news';
+
+$route['search'] 								= 'news/search';
+
+$route['default_controller'] 					= 'welcome';
+
+$route['404_override'] 							= '';
+
+$route['translate_uri_dashes']					= FALSE;
+
+$route['cn/news/(.+).html'] 					= 'news/news';
+
+$route['cn/page/(:num).html'] 					= 'news/page/$1';
+
+$route['(cn)/(:any)'] 							= "$2";
+
+$route['cn/(:any)/(:any)'] 						= "$1/$2";
+
+$route['cn/(:any)/(:any)/(:any)'] 				= "$1/$2/$3";
+
+$route['cn'] 									= "welcome";
+
+
+$route['user/login/status'] 					= "user/login_status";

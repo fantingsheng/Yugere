@@ -1563,14 +1563,14 @@ header.header.header-light .header-cart .cart-link span {
   font-size: 11px;
   letter-spacing: 4px;
   margin-bottom: 71px;
-  color: #ffffff;
+  color: #000;
 }
 .home-video .wrap-video-content .video-content .home-info .video-title {
   font-family: 'Vollkorn', serif;
   font-size: 100px;
   font-weight: 400;
   margin-bottom: 52px;
-  color: #ffffff;
+  color: #000;
 }
 .home-video .wrap-video-content .video-content a.btn,
 .home-video .wrap-video-content .video-content a.cart-wrapper .cart-wrap-total-checkout .proceed-to-checkout .checkout-button,
@@ -3082,11 +3082,13 @@ header.header.header-light .header-cart .cart-link span {
   text-align: center;
 }
 .more-info a {
+  display: inline-block;
+  margin: 0 10px;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   color: #333333;
-  letter-spacing: 3.5px;
+  letter-spacing: 1px;
 }
 .sidebar {
   padding-left: 45px;

@@ -12,10 +12,11 @@
 <html lang="en">
 <!--<![endif]-->
 <head>
-    <title>Lola | HTML Themes</title>
+    <title>「Yugere」悦己服装定制 | 提供你最满意的定制服务</title>
     <meta charset="UTF-8">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
+    <meta name="author" content="Timfan">
+    <meta name="keywords" content="服装定制,悦己,来图定制,打版定制,量身定制,一对一定制">
+    <meta name="description" content="来图来样定制，量身定制，提供一对一精致的定制服务" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="<?=base_url('favicon.ico')?>" type="image/x-icon">
     <link rel="icon" href="<?=base_url('favicon.ico')?>" type="image/x-icon">
@@ -67,172 +68,7 @@
                                 </div>
                             </div>
                         </article>
-                    </div>
-                    <!-- Post 2-->
-                    <div class="col-md-4 col-sm-6 col-xs-6 postlist-col">
-                        <article class="post clearfix">
-                            <a href="/blog/detail" class="post-thumbnail">
-                                <img src="/images/Post/post_2.jpg" alt="images"/>
-                                <div class="overlay-post"></div>
-                            </a>
-                            <div class="entry-content">
-                                <div class="post-content margin-top-5">
-                                    <h6>The Summer - Autumn Collection 2016</h6>
-                                    <p>
-                                        Meh synth Schlitz, tempor duis single-origin coffee ea
-                                        next level ethnic fingerstache fanny pack nostrud. Photo
-                                        booth anim 8-bit hella, PBR 3 wolf moon ...
-                                    </p>
-                                </div>
-                                <div class="entry-meta ">
-                                    <div class="entry-date ">
-                                        <a href="#"><time datetime="09-16T">09 aug</time></a>
-                                    </div>
-                                    <span class="meta-divider">|</span>
-                                    <div class="cat-links">
-                                        <a href="#">collection</a>
-                                    </div>
-                                    <span class="meta-divider">|</span>
-                                    <a href="#" class="comments-link">
-                                        <span>2</span>
-                                        <span class="text-comments">comments</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <!-- Post 3-->
-                    <div class="col-md-4 col-sm-6 col-xs-6 postlist-col">
-                        <article class="post clearfix">
-                            <a href="/blog/detail" class="post-thumbnail">
-                                <img src="images/Post/post_3.jpg" alt="images"/>
-                                <div class="overlay-post"></div>
-                            </a>
-                            <div class="entry-content">
-                                <div class="post-content margin-top-5">
-                                    <h6>New York Fashion Week Madness</h6>
-                                    <p>
-                                        Meh synth Schlitz, tempor duis single-origin coffee ea
-                                        next level ethnic fingerstache fanny pack nostrud. Photo
-                                        booth anim 8-bit hella, PBR 3 wolf moon ...
-                                    </p>
-                                </div>
-                                <div class="entry-meta ">
-                                    <div class="entry-date ">
-                                        <a href="#"><time datetime="09-16T">23 jul</time></a>
-                                    </div>
-                                    <span class="meta-divider">|</span>
-                                    <div class="cat-links">
-                                        <a href="#">events</a>
-                                    </div>
-                                    <span class="meta-divider">|</span>
-                                    <a href="#" class="comments-link">
-                                        <span>5</span>
-                                        <span class="text-comments">comments</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <!-- Post 4 -->
-                    <div class="col-md-4 col-sm-6 col-xs-6 postlist-col">
-                        <article class="post clearfix">
-                            <a href="/blog/detail" class="post-thumbnail">
-                                <img src="images/Post/post_4.jpg" alt="images"/>
-                                <div class="overlay-post"></div>
-                            </a>
-                            <div class="entry-content">
-                                <div class="post-content margin-top-5">
-                                    <h6>Blue Is a Must This Season</h6>
-                                    <p>
-                                        Meh synth Schlitz, tempor duis single-origin coffee ea
-                                        next level ethnic fingerstache fanny pack nostrud. Photo
-                                        booth anim 8-bit hella, PBR 3 wolf moon ...
-                                    </p>
-                                </div>
-                                <div class="entry-meta ">
-                                    <div class="entry-date ">
-                                        <a href="#"><time datetime="09-16T">15 jul</time></a>
-                                    </div>
-                                    <span class="meta-divider">|</span>
-                                    <div class="cat-links">
-                                        <a href="#">style</a>
-                                    </div>
-                                    <span class="meta-divider">|</span>
-                                    <a href="#" class="comments-link">
-                                        <span>4</span>
-                                        <span class="text-comments">comments</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <!-- Post 5 -->
-                    <div class="col-md-4 col-sm-6 col-xs-6 postlist-col">
-                        <article class="post clearfix">
-                            <a href="/blog/detail" class="post-thumbnail">
-                                <img src="images/Post/post_5.jpg" alt="images"/>
-                                <div class="overlay-post"></div>
-                            </a>
-                            <div class="entry-content">
-                                <div class="post-content margin-top-5">
-                                    <h6>Autumn is Coming</h6>
-                                    <p>
-                                        Meh synth Schlitz, tempor duis single-origin coffee ea
-                                        next level ethnic fingerstache fanny pack nostrud. Photo
-                                        booth anim 8-bit hella, PBR 3 wolf moon ...
-                                    </p>
-                                </div>
-                                <div class="entry-meta ">
-                                    <div class="entry-date ">
-                                        <a href="#"><time datetime="09-16T">03 jul</time></a>
-                                    </div>
-                                    <span class="meta-divider">|</span>
-                                    <div class="cat-links">
-                                        <a href="#">street</a>
-                                    </div>
-                                    <span class="meta-divider">|</span>
-                                    <a href="#" class="comments-link">
-                                        <span>3</span>
-                                        <span class="text-comments">comments</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <!-- Post 6 -->
-                    <div class="col-md-4 col-sm-6 col-xs-6 postlist-col">
-                        <article class="post clearfix">
-                            <a href="/blog/detail" class="post-thumbnail">
-                                <img src="images/Post/post_6.jpg" alt="images"/>
-                                <div class="overlay-post"></div>
-                            </a>
-                            <div class="entry-content">
-                                <div class="post-content margin-top-5">
-                                    <h6>Major Comeback</h6>
-                                    <p>
-                                        Meh synth Schlitz, tempor duis single-origin coffee ea
-                                        next level ethnic fingerstache fanny pack nostrud. Photo
-                                        booth anim 8-bit hella, PBR 3 wolf moon ...
-                                    </p>
-                                </div>
-                                <div class="entry-meta ">
-                                    <div class="entry-date ">
-                                        <a href="#"><time datetime="09-16T">29 jun</time></a>
-                                    </div>
-                                    <span class="meta-divider">|</span>
-                                    <div class="cat-links">
-                                        <a href="#">collection</a>
-                                    </div>
-                                    <span class="meta-divider">|</span>
-                                    <a href="#" class="comments-link">
-                                        <span>2</span>
-                                        <span class="text-comments">comments</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
+                    </div>   
                 </div>
                 <div class="more-info">
                     <a href="#">
@@ -304,7 +140,7 @@
                 <span class="cart-total">$325.00</span>
             </div>
             <div class="proceed-to-checkout">
-                <a href="checkout.html" class="checkout-button"><span>Check Out</span></a>
+                <a href="/checkout" class="checkout-button"><span>Check Out</span></a>
             </div>
         </div>
     </div>

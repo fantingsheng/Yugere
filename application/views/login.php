@@ -12,10 +12,11 @@
 <html lang="en">
 <!--<![endif]-->
 <head>
-    <title>Lola | HTML Themes</title>
+    <title>「Yugere」悦己服装定制 | 提供你最满意的定制服务</title>
     <meta charset="UTF-8">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
+    <meta name="author" content="Timfan">
+    <meta name="keywords" content="服装定制,悦己,来图定制,打版定制,量身定制,一对一定制">
+    <meta name="description" content="来图来样定制，量身定制，提供一对一精致的定制服务" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="<?=base_url('favicon.ico')?>" type="image/x-icon">
     <link rel="icon" href="<?=base_url('favicon.ico')?>" type="image/x-icon">
@@ -123,7 +124,7 @@
                 <span class="cart-total">$325.00</span>
             </div>
             <div class="proceed-to-checkout">
-                <a href="checkout.html" class="checkout-button"><span>Check Out</span></a>
+                <a href="/checkout" class="checkout-button"><span>Check Out</span></a>
             </div>
         </div>
     </div>

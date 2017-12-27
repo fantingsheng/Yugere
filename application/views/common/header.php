@@ -16,8 +16,8 @@
                     <a href="#" class="menu-icon"></a>
                     <a href="/">HOME</a>
                     <ul class="sub-menu">
-                        <li class="active-item"><a href="index.html">HOME SLIDER</a></li>
-                        <li><a href="index-2.html">HOME VIDEO</a></li>
+                        <li class="active-item"><a href="/">HOME SLIDER</a></li>
+                        <li><a href="/imovie">HOME VIDEO</a></li>
                     </ul>
                 </li>
                 <li class="menu-item-has-children">
@@ -29,11 +29,11 @@
                     </ul>
                 </li>
                 <li><a href="/about">ABOUT</a></li>
-                <li><a href="/blog">BLOG</a></li>
+                <li><a href="/news">BLOG</a></li>
                 <li><a href="/contact">CONTACT</a></li>
                 <li class="menu-item-has-children">
                     <a href="#" class="menu-icon"></a>
-                    <a href="help">HELP</a>
+                    <a href="/help">HELP</a>
                     <ul class="sub-menu">
                         <li><a href="size-guide.html">SIZE GUIDE</a></li>
                         <li><a href="returns-exchanges.html">RETURNS - EXCHANGES</a></li>
@@ -70,7 +70,7 @@
             </a>
         </div>
         <div class="logo-wrap">
-            <a href="index.html" class="theme-logo">Yugere</a>
+            <a href="/" class="theme-logo">Yugere</a>
         </div>
         <div class="header-cart">
             <a href="#" class="cart-link">

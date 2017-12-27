@@ -5,8 +5,8 @@
 <script src="<?=base_url('js/lib/modernizr.min.js')?>"></script>
 
 <!--[if lt IE 9]>
-<script src="js/lib/html5shiv.js"></script>
-<script src="js/lib/respond.min.js"></script>
+<script src="<?=base_url('js/lib/html5shiv.js')?>"></script>
+<script src="<?=base_url('js/lib/respond.min.js')?>"></script>
 <![endif]-->
 
 <!-- Input Number 'Spinner' -->

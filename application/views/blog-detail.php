@@ -13,12 +13,13 @@
 <html lang="en">
 <!--<![endif]-->
 <head>
-    <title>Lola | HTML Themes</title>
+    <title>「Yugere」悦己服装定制 | 提供你最满意的定制服务</title>
     <meta charset="UTF-8">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
+    <meta name="author" content="Timfan">
+    <meta name="keywords" content="服装定制,悦己,来图定制,打版定制,量身定制,一对一定制">
+    <meta name="description" content="来图来样定制，量身定制，提供一对一精致的定制服务" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<?=base_url('favicon.ico')?>" type="image/x-icon">
     <link rel="icon" href="<?=base_url('favicon.ico')?>" type="image/x-icon">
 
     <!-- Style CSS -->
@@ -36,151 +37,30 @@
                <div class="content-area col-md-8 col-sm-12">
                    <article class="post post-details">
                        <div class="post-details-thumbnail">
-                           <img src="/images/Post/post_details.jpg" alt="images"/>
+                           <img src="<?=$blog['images'][0]?>" alt="images"/>
                        </div>
                        <div class="entry-content">
                            <div class="post-content">
-                              <h6 class="entry-header">The Summer Autumn Collection 2016</h6>
+                              <h6 class="entry-header"><?=$blog['title']?></h6>
                               <p>
-                                  Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic
-                                  fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf
-                                  moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art
-                                  party deep v chillwave. Seitan High Life reprehenderit consectetur cupidatat
-                                  kogi. Et leggings fanny pack, elit bespoke vinyl art party Pitchfork selfies master
-                                  cleanse Kickstarter seitan retro. Drinking vinegar stumptown yr pop-up artisan sunt.
+                                  <?=$blog['content']?>
                               </p>
-                              <p>
-                                  Exercitation photo booth stumptown tote bag Banksy, elit small batch freegan sed. Craft beer elit seitan exercitation,
-                                  photo booth et 8-bit kale chips proident chillwave deep v laborum. Aliquip veniam delectus, Marfa eiusmod Pinterest
-                                  in do umami readymade swag. Selfies iPhone Kickstarter, drinking vinegar jean.
-                              </p>
+                              
                            </div>
                            <div class="entry-meta">
                                <div class="entry-date ">
-                                   <a href="#"><time datetime="09-16T">09 aug</time></a>
+                                   <a href="#"><time datetime="09-16T"><?=$blog['date']?></time></a>
                                </div>
                                <span class="meta-divider">|</span>
                                <div class="cat-links">
-                                   <a href="#">collection</a>
+                                   <a><?=$blog['author']?></a>
                                </div>
-                               <div class="social-meta">
-                                   <a href="https://www.facebook.com/" target="_blank">
-                                       <i class="fa fa-facebook"></i>
-                                   </a>
-                                   <a href="https://twitter.com/" target="_blank">
-                                       <i class="fa fa-twitter"></i>
-                                   </a>
-                                   <a href="https://ru.pinterest.com/" target="_blank">
-                                       <i class="fa fa-pinterest-p"></i>
-                                   </a>
-                               </div>
+                               
                            </div>
                        </div>
                    </article>
-                   <!--Coments Area-->
-                   <div class="comment-area">
-                       <h3 class="comment-title"> comments</h3>
-                       <ol class="comment-list">
-                           <!--Coments 1-->
-                           <li class="comment depth-1 ">
-                               <article class="comment-body">
-                                   <div class="comment-avatar">
-                                       <div class="avatar">
-                                           <img src="images/Post/coments-avatar.jpg" alt="Avatar"/>
-                                       </div>
-                                   </div>
-                                   <div class="comment-aside">
-                                       <div class="comment-meta">
-                                           <span class="comment-autaor">
-                                               <a href="#" class="link-author">Emilie Carman</a>
-                                           </span>
-                                       </div>
-                                       <a href="#" class="comment-reply-link">
-                                           Reply
-                                       </a>
-                                       <div class="comment-content">
-                                           <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                               Vestibulum tempus congue varius. Donec posuere consectetur lorem non vulputate.
-                                               Donec tincidunt eget lectus quis elementum. Phasellus a tristique elit.
-                                               In sagittis lacus non congue fringilla.
-                                           </p>
-                                       </div>
-                                   </div>
-                               </article>
-                               <!--Coments 2-->
-                               <ul class="children">
-                                   <li class="comment depth-2">
-                                       <article class="comment-body">
-                                           <div class="comment-avatar">
-                                               <div class="avatar">
-                                                   <img src="images/Post/coments-avatar.jpg" alt="Avatar"/>
-                                               </div>
-                                           </div>
-                                           <div class="comment-aside">
-                                               <div class="comment-meta">
-                                                   <span class="comment-autaor">
-                                                       <a href="#" class="link-author">Emilie Carman</a>
-                                                   </span>
-                                               </div>
-                                               <a href="#" class="comment-reply-link">
-                                               Reply
-                                               </a>
-                                               <div class="comment-content">
-                                                   <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                                       Vestibulum tempus congue varius. Donec posuere consectetur lorem non vulputate.
-                                                       Donec tincidunt eget lectus quis elementum. Phasellus a tristique elit.
-                                                       In sagittis lacus non congue fringilla.
-                                                   </p>
-                                               </div>
-                                           </div>
-                                       </article>
-                                   </li>
-                               </ul>
-                           </li>
-                           <!--Coments 3-->
-                           <li class="comment depth-1">
-                               <article class="comment-body">
-                                   <div class="comment-avatar">
-                                       <div class="avatar">
-                                           <img src="images/Post/coments-avatar.jpg" alt="Avatar"/>
-                                       </div>
-                                   </div>
-                                   <div class="comment-aside">
-                                       <div class="comment-meta">
-                                           <span class="comment-autaor">
-                                               <a href="#" class="link-author">Emilie Carman</a>
-                                           </span>
-                                       </div>
-                                       <a href="#" class="comment-reply-link">
-                                           Reply
-                                       </a>
-                                       <div class="comment-content">
-                                           <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                               Vestibulum tempus congue varius. Donec posuere consectetur lorem non vulputate.
-                                               Donec tincidunt eget lectus quis elementum. Phasellus a tristique elit.
-                                               In sagittis lacus non congue fringilla.
-                                           </p>
-                                       </div>
-                                   </div>
-                               </article>
-                           </li>
-                       </ol>
-                       <!--Form-->
-                       <form action="#" class="comment-form">
-                           <p class="comment-form-comment">
-                               <input type="text" class="required" placeholder="name"/>
-                           </p>
-                           <p class="comment-form-comment">
-                               <input type="text" class="input" class="required" placeholder="email"/>
-                           </p>
-                           <p class="comment-form-comment">
-                               <textarea class="required" placeholder="message"></textarea>
-                           </p>
-                           <p class="form-submit">
-                               <input type="submit" class="submit btn btn-1" value="send"/>
-                           </p>
-                       </form>
-                   </div>
+                
+                  
                </div>
                 <!-- Sidebar -->
                 <div class="col-md-4 col-sm-12 sidebar">
@@ -305,7 +185,7 @@
                 <span class="cart-total">$325.00</span>
             </div>
             <div class="proceed-to-checkout">
-                <a href="checkout.html" class="checkout-button"><span>Check Out</span></a>
+                <a href="/checkout" class="checkout-button"><span>Check Out</span></a>
             </div>
         </div>
     </div>

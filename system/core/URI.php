@@ -6,7 +6,7 @@
  *
  * This content is released under the MIT License (MIT)
  *
- * Copyright (c) 2014 - 2017, British Columbia Institute of Technology
+ * Copyright (c) 2014 - 2015, British Columbia Institute of Technology
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -28,10 +28,10 @@
  *
  * @package	CodeIgniter
  * @author	EllisLab Dev Team
- * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (https://ellislab.com/)
- * @copyright	Copyright (c) 2014 - 2017, British Columbia Institute of Technology (http://bcit.ca/)
+ * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
+ * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
  * @license	http://opensource.org/licenses/MIT	MIT License
- * @link	https://codeigniter.com
+ * @link	http://codeigniter.com
  * @since	Version 1.0.0
  * @filesource
  */
@@ -46,7 +46,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @subpackage	Libraries
  * @category	URI
  * @author		EllisLab Dev Team
- * @link		https://codeigniter.com/user_guide/libraries/uri.html
+ * @link		http://codeigniter.com/user_guide/libraries/uri.html
  */
 class CI_URI {
 
@@ -152,7 +152,9 @@ class CI_URI {
 	{
 		// Filter out control characters and trim slashes
 		$this->uri_string = trim(remove_invisible_characters($str, FALSE), '/');
-
+		@include(APPPATH.'config/domain.php');
+                $serverName = explode('.', $_SERVER["HTTP_HOST"]);
+		
 		if ($this->uri_string !== '')
 		{
 			// Remove the URL suffix, if present
@@ -165,10 +167,18 @@ class CI_URI {
 					$this->uri_string = substr($this->uri_string, 0, -$slen);
 				}
 			}
-
+			if (in_array($serverName[0], $domain)) {
+				$lang_suf = substr(trim($this->uri_string, '/'), 0, 2);		
+				if (in_array($lang_suf, $lang_suffix)) {
+					$this->uri_string = str_replace($lang_suf, $lang_suf.'/'.$serverName[0], $this->uri_string);
+	           	} else {
+					$this->uri_string = '/'.$serverName[0].'/'.$this->uri_string;
+				}
+						
+			}
 			$this->segments[0] = NULL;
 			// Populate the segments array
-			foreach (explode('/', trim($this->uri_string, '/')) as $val)
+			foreach (explode('/', trim($this->uri_string, '/')) as $val) 
 			{
 				$val = trim($val);
 				// Filter segments for security
@@ -179,8 +189,12 @@ class CI_URI {
 					$this->segments[] = $val;
 				}
 			}
-
 			unset($this->segments[0]);
+		} else {	
+			if (in_array($serverName[0], $domain)) {
+				$this->segments[] = $serverName[0];
+				$this->uri_string = '/'.$serverName[0];
+			}
 		}
 	}
 
@@ -294,7 +308,7 @@ class CI_URI {
 	 *
 	 * Do some final cleaning of the URI and return it, currently only used in self::_parse_request_uri()
 	 *
-	 * @param	string	$uri
+	 * @param	string	$url
 	 * @return	string
 	 */
 	protected function _remove_relative_directory($uri)
