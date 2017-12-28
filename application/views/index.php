@@ -46,7 +46,7 @@
                     </div>
                 </div>
                 <!-- Slider 2 -->
-                <div class="item" style="background-image: url('<?=base_url('images/Home-Slider/slide-2.png')?>')">
+                <div class="item" style="background-image: url('<?=base_url('images/Home-Slider/slide-2.jpg')?>')">
                     <div class="itable">
                         <div class="icell">
                             <div class="slider-content">
@@ -58,7 +58,7 @@
                     </div>
                 </div>
                 <!-- Slider 3 -->
-                <div class="item" style="background-image: url('<?=base_url('images/Home-Slider/slide-3.png')?>')">
+                <div class="item" style="background-image: url('<?=base_url('images/Home-Slider/slide-3.jpg')?>')">
                     <div class="itable">
                         <div class="icell">
                             <div class="slider-content">
