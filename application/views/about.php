@@ -33,20 +33,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="other-page about-page margin-top-155">
+                    <div class="other-page about-page">
                         <!--Title-->
-                        <h3 class="page-title">Sometimes the simplest things are the hardest to find.</h3>
+                        <h3 class="page-title">悦己高级服装定制</h3>
                         <!-- End Title-->
                         <div class="about-page-content">
-                            <h4>So we created a new line for everyday life, to simplify everything.</h4>
-                            <img src="images/About/about-img.jpg" alt="images"/>
+                            <h4>YUGERE TO HAPPY YOURSELF AND MAKE EVERYTHING MORE BETTER </h4>
+                            <img src="images/About/shop-brand.png" alt="images"/>
                             <h4>Focusing on quality and unique personal style</h4>
-                            <p>Principale principium creandi ratio perfecta «pendens" Viveret, titulus postea
-                                evolutis in de collectis fit plena & facilis-ut-exterat extrema qualitas capita.
-                                Offerens quae de vestri ventus. Tees ad bombicis interficiam de pellibus texit
-                                caligas, unicuique inspiratum est a collection minimus pullus-AESTHETICAet in
-                                platea stilo culturae.Proin sagittis sapien a viverra tincidunt.
-                            </p>
+                            <p>人的一生每个人都需要一件高级定制，它是个人外在追求的象征。俗话说人靠衣服马靠鞍，一件衣服不仅要品质好，更要与你的身材完美的契合。不是你去迎合衣服的大小，而要让衣服为你而生！</p>
+                            <p>为什么要高级定制？所有珍贵的美好，都应该高傲地绝版！</p>
+                            <p>—— IVYTRIP</p>
+                            <img src="images/About/yugere.png" alt="images"/>
                         </div>
 
                     </div>

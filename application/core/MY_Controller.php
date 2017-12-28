@@ -19,7 +19,7 @@ class MY_Controller extends CI_Controller {
 		if (empty($lang)) {
 			$lang = $this->uri->segment(1);
 		}
-		$this->lang->load('web', 'chinese');
+		$this->lang->load('web', 'english');
         //默认语言为英语 chinese
         @include(APPPATH.'config/domain.php');
         if (in_array($lang, $lang_suffix)) {

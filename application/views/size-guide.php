@@ -36,7 +36,7 @@
                 <div class="col-sm-12">
                     <div class="other-page margin-top-255">
                         <!--Title-->
-                        <h3 class="page-title">size guide</h3>
+                        <h3 class="page-title">尺寸指南</h3>
                         <!-- End Title-->
                         <!--Table-->
                         <div class="table-group">
@@ -162,7 +162,7 @@
         <ul class="shop_table shop_table_cart">
             <li class="cart_item clearfix">
                 <div class="product-thumbnail">
-                    <a href="shop-details.html"><img src="images/Shop/cart-product-thumb-1.jpg" alt="Product 1"/></a>
+                    <a href="shop-details.html"><img src="/images/Shop/cart-product-thumb-1.jpg" alt="Product 1"/></a>
                 </div>
                 <div class="product-info">
                     <div class="product-name">
@@ -185,7 +185,7 @@
             </li>
             <li class="cart_item clearfix">
                 <div class="product-thumbnail">
-                    <a href="shop-details.html"><img src="images/Shop/cart-product-thumb-2.jpg" alt="Product 2"/></a>
+                    <a href="shop-details.html"><img src="/images/Shop/cart-product-thumb-2.jpg" alt="Product 2"/></a>
                 </div>
                 <div class="product-info">
                     <div class="product-name">

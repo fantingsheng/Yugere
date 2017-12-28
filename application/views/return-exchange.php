@@ -18,8 +18,8 @@
     <meta name="keywords" content="服装定制,悦己,来图定制,打版定制,量身定制,一对一定制">
     <meta name="description" content="来图来样定制，量身定制，提供一对一精致的定制服务" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="<?=base_url('favicon.ico')?>" type="image/x-icon">
-    <link rel="icon" href="<?=base_url('favicon.ico')?>" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 
     <!-- Style CSS -->
     <link href="<?=base_url('css/bootstrap.css')?>" media="screen" rel="stylesheet">
@@ -27,59 +27,50 @@
     <link href="<?=base_url('css/style.css')?>" media="screen" rel="stylesheet">
 </head>
 <body>
+
+     
 <?php include "common/header.php" ?>
-    <!-- HomePage Slider -->
-    <section class="home-slider">
-        <div id="home-slider" class="carousel slide" data-ride="carousel">
-            <!-- Wrapper for slides -->
-            <!-- Slider 1 -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active" style="background-image: url('<?=base_url('images/Home-Slider/slide-1.jpg')?>')">
-                    <div class="itable">
-                        <div class="icell">
-                            <div class="slider-content">
-                                <h2 class="slider-title-before">HANDMADE BASICS WITH STYLE AND QUALITY</h2>
-                                <h1 class="slider-title">Come in time</h1>
-                                <a href="/shop" class="btn btn-1"><span>start shopping now</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Slider 2 -->
-                <div class="item" style="background-image: url('<?=base_url('images/Home-Slider/slide-2.png')?>')">
-                    <div class="itable">
-                        <div class="icell">
-                            <div class="slider-content">
-                                <h2 class="slider-title-before">HANDMADE BASICS WITH STYLE AND QUALITY</h2>
-                                <h1 class="slider-title">Modern & Edgy</h1>
-                                <a href="/shop" class="btn btn-1"><span>start shopping now</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Slider 3 -->
-                <div class="item" style="background-image: url('<?=base_url('images/Home-Slider/slide-3.png')?>')">
-                    <div class="itable">
-                        <div class="icell">
-                            <div class="slider-content">
-                                <h2 class="slider-title-before">HANDMADE BASICS WITH STYLE AND QUALITY</h2>
-                                <h1 class="slider-title">Back to Black</h1>
-                                <a href="/shop" class="btn btn-1"><span>start shopping now</span></a>
-                            </div>
-                        </div>
+
+    <!--Returns-exchange-->
+    <div class="site-main clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="other-page margin-top-75">
+                        <!--Title-->
+                        <h3 class="page-title">returns + exchanges</h3>
+                        <!-- End Title-->
+                        <!--Site text-->
+                        <h6 class="margin-bottom-30">FREE Returns & Exchanges</h6>
+                        <p class="margin-bottom-55">
+                            Professionally strategize resource maximizing portals rather
+                            than parallel niches. Energistically provide access to flexible
+                            content and cross-platform experiences. Rapidiously target
+                            alternative schemas before worldwide partnerships. Proactively
+                            predominate B2C relationships before intermandated alignments. Proactively
+                            envisioneer focused markets with ubiquitous methodologies.
+                        </p>
+                        <h6 class="margin-bottom-30">How to Make a Return or Exchange</h6>
+                        <p>
+                            Globally administrate fully researched applications for timely scenarios.
+                            Assertively simplify multimedia based paradigms without efficient experiences.
+                            Rapidiously formulate collaborative benefits with leveraged e-business.
+                            Seamlessly empower mission-critical core competencies without premier systems.
+                            Competently impact installed base convergence through team building value.
+                        </p>
+                        <p class="margin-top-30">
+                            Globally administrate fully researched applications for timely scenarios.
+                            Assertively simplify multimedia based paradigms without efficient experiences.
+                            Rapidiously formulate collaborative benefits with leveraged e-business. Seamlessly
+                            empower mission-critical core competencies without premier systems. Competently
+                            impact installed base convergence through team building value.
+                        </p>
+                        <!--End Site text-->
                     </div>
                 </div>
             </div>
-
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#home-slider" data-slide-to="0" class="active"></li>
-                <li data-target="#home-slider" data-slide-to="1"></li>
-                <li data-target="#home-slider" data-slide-to="2"></li>
-            </ol>
         </div>
-    </section>
-    <!-- End HomePage Slider -->
+    </div>
 </div>
 <!-- Shop Cart -->
 <div class="cart-wrapper">
@@ -148,4 +139,22 @@
     </div>
 </div>
 <!-- End Shop Cart -->
-<?php include "common/footer.php" ?>
+
+<!-- main JS libs  -->
+<script src="<?=base_url('js/lib/jquery-1.12.2.min.js')?>"></script>
+<script src="<?=base_url('js/lib/bootstrap.min.js')?>"></script>
+<!-- Modernizr Library -->
+<script src="<?=base_url('js/lib/modernizr.min.js')?>"></script>
+
+<!--[if lt IE 9]>
+<script src="<?=base_url('js/lib/html5shiv.js')?>"></script>
+<script src="<?=base_url('js/lib/respond.min.js')?>"></script>
+<![endif]-->
+
+<!-- Input Numer 'Spinner' -->
+<script src="<?=base_url('js/jquery.spinner.js')?>"></script>
+
+<!--General JS-->
+<script src="<?=base_url('js/general.js')?>"></script>
+</body>
+</html>

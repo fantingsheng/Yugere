@@ -37,7 +37,7 @@
                <div class="content-area col-md-8 col-sm-12">
                    <article class="post post-details">
                        <div class="post-details-thumbnail">
-                           <img src="<?=$blog['images'][0]?>" alt="images"/>
+                           <img src="<?=$blog['head']?>" alt="images"/>
                        </div>
                        <div class="entry-content">
                            <div class="post-content">
@@ -55,12 +55,17 @@
                                <div class="cat-links">
                                    <a><?=$blog['author']?></a>
                                </div>
-                               
+                               <span class="meta-divider">|</span>
+
+                              <?php foreach($blog['tags'] as $cate): ?>
+                                <div class="cat-links">
+                                    <a href="#"><?=$cate['name']?></a>
+                                </div>
+                              <?php endforeach; ?>
                            </div>
                        </div>
                    </article>
                 
-                  
                </div>
                 <!-- Sidebar -->
                 <div class="col-md-4 col-sm-12 sidebar">
@@ -70,18 +75,11 @@
                             <span>category</span>
                         </h2>
                         <ul>
-                            <li>
-                                <a href="#">Collection</a>
-                            </li>
-                            <li>
-                                <a href="#">Events</a>
-                            </li>
-                            <li>
-                                <a href="#">Street</a>
-                            </li>
-                            <li>
-                                <a href="#">Style</a>
-                            </li>
+                            <?php foreach($blog['tags'] as $cate): ?>
+                                <li>
+                                    <a href="<?=$cate['url']?>"><?=$cate['name']?></a>
+                                </li>
+                            <?php endforeach; ?>
                         </ul>
                     </aside>
                     <!-- Sidebar 1-->
@@ -91,14 +89,9 @@
                         </h2>
                         <ul>
                             <li>
-                                <a href="#">Fashion In The Country</a>
+                                <a href="/news/zhiban.html">翻驳领制版教程详解</a>
                             </li>
-                            <li>
-                                <a href="#">The Summer - Autumn Collection 2016</a>
-                            </li>
-                            <li>
-                                <a href="#">New York fashion Week Madness</a>
-                            </li>
+                           
                         </ul>
                     </aside>
                     <!-- Sidebar 3-->
@@ -107,15 +100,9 @@
                             <span>archive</span>
                         </h2>
                         <ul>
-                            <li>
-                                <a href="#">August 2016</a>
-                            </li>
-                            <li>
-                                <a href="#">July 2016</a>
-                            </li>
-                            <li>
-                                <a href="#">June 2016</a>
-                            </li>
+                            <?php foreach($yearMonths as $year): ?>
+                              <li><a href="<?=$year['url']?>"><?=$year['name']?></a></li>
+                            <?php endforeach; ?>
                         </ul>
                     </aside>
                 </div>

@@ -40,7 +40,7 @@ class Yaml {
     		),
     		"blog" => array(
     			"recentSize" => 5,
-    			"pageSize" => 5,
+    			"pageSize" => 6,
     			"pageBarSize" => 5,
     			"allBlogsForPage" => true 
     		),

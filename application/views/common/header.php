@@ -13,20 +13,13 @@
         <nav class="menu">
             <ul>
                 <li class="menu-item-has-children">
-                    <a href="#" class="menu-icon"></a>
                     <a href="/">HOME</a>
-                    <ul class="sub-menu">
-                        <li class="active-item"><a href="/">HOME SLIDER</a></li>
-                        <li><a href="/imovie">HOME VIDEO</a></li>
-                    </ul>
                 </li>
                 <li class="menu-item-has-children">
-                    <a href="#" class="menu-icon"></a>
+                    <a href="/imovie">VIDEO</a>
+                </li>
+                <li class="menu-item-has-children">
                     <a href="/shop">SHOP</a>
-                    <ul class="sub-menu">
-                        <li><a href="/shop">TWO COLUMNS</a></li>
-                        <li><a href="shop-2.html">THREE COLUMNS </a></li>
-                    </ul>
                 </li>
                 <li><a href="/about">ABOUT</a></li>
                 <li><a href="/news">BLOG</a></li>
@@ -35,14 +28,16 @@
                     <a href="#" class="menu-icon"></a>
                     <a href="/help">HELP</a>
                     <ul class="sub-menu">
-                        <li><a href="size-guide.html">SIZE GUIDE</a></li>
-                        <li><a href="returns-exchanges.html">RETURNS - EXCHANGES</a></li>
-                        <li><a href="terms-of-services.html">TERMS OF SERVICES</a></li>
+                        <li><a href="/help">SIZE GUIDE</a></li>
+                        <li><a href="/help/exchange">RETURNS - EXCHANGES</a></li>
+                        <li><a href="/help/service">TERMS OF SERVICES</a></li>
                     </ul>
                 </li>
             </ul>
         </nav>
+        <!--
         <div class="menu-log-in"><a href="/login">LOG IN</a></div>
+        -->
     </div>
     <div class="menu-footer">
         <ul class="menu-social">

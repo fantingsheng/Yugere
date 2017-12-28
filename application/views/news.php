@@ -39,18 +39,18 @@
                     <?php foreach($blogList as $blog): ?>
                     <div class="col-md-4 col-sm-6 col-xs-6 postlist-col">
                         <article class="post clearfix">
-                        	<?php if($blog['images']): ?>
+                        	
                             <a href="<?=$blog['siteURL']?>" class="post-thumbnail">
-                                <img src="<?=$blog['images'][0]?>" alt="images"/>
+                                <img src="<?=$blog['head']?>?>" alt="images"/>
                                 <div class="overlay-post"></div>
                             </a>
-                             <?php endif; ?>
+                            
                             <div class="entry-content">
                                 <div class="post-content margin-top-5">
                                     <h6><?=$blog['title']?></h6>
-                                    <p>
+                                    
                                         <?=$blog['summary']?>
-                                    </p>
+                                    
                                 </div>
                                 <div class="entry-meta ">
                                     <div class="entry-date ">
@@ -60,7 +60,12 @@
                                     <div class="cat-links">
                                         <a href="#"><?=$blog['author']?></a>
                                     </div>
-                                    
+                                    <span class="meta-divider">|</span>
+                                    <?php foreach($blog['category'] as $cate): ?>
+                                    <div class="cat-links">
+                                        <a href="#"><?=$cate['name']?></a>
+                                    </div>
+                                    <?php endforeach; ?>
                                 </div>
                             </div>
                         </article>

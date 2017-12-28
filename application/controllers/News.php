@@ -23,7 +23,7 @@ class News extends MY_Controller {
 		if(in_array($lang, $lang_suffix)) {
 			$lang = $this->uri->segment(1);
 		} else {
-			$lang = "cn";
+			$lang = "en";
 		}
 	}
 	
@@ -35,7 +35,7 @@ class News extends MY_Controller {
 		if(in_array($lang, $lang_suffix)) {
 			$lang = $this->uri->segment(1);
 		} else {
-			$lang = "cn";
+			$lang = "en";
 		}
 		$this->page(1, $lang);
 	}
@@ -147,7 +147,7 @@ class News extends MY_Controller {
 		if(in_array($lang, $lang_suffix)) {
 			$lang = $this->uri->segment(1);
 		} else {
-			$lang = "cn";
+			$lang = "en";
 		}
 		$pageNo = (int)$pageNo;
 		$pageSize = $this->confObj['blog']['pageSize'];
@@ -234,7 +234,7 @@ class News extends MY_Controller {
 		if(in_array($lang, $lang_suffix)) {
 			$lang = $this->uri->segment(1);
 		} else {
-			$lang = "cn";
+			$lang = "en";
 		}
 		if ($this->loadOutCache()) return;
 		
@@ -305,7 +305,7 @@ class News extends MY_Controller {
 		if(in_array($lang, $lang_suffix)) {
 			$lang = $this->uri->segment(1);
 		} else {
-			$lang = "cn";
+			$lang = "en";
 		}
 		if ($this->loadOutCache()) return;
 
@@ -321,6 +321,10 @@ class News extends MY_Controller {
 		}
 		
 		$blog = $this->markdown->getBlogById($blogId);
+		$yearMonths = $this->markdown->getAllYearMonths();
+		$yearMonth = $this->_array_sort($yearMonths,'id');
+
+		$this->_view_data['yearMonths'] = $yearMonth;
 		
 		$this->_view_data['pageName'] = $this->lang->line('news_detail_page');
 		$this->_view_data['blog'] = $blog;
@@ -349,85 +353,7 @@ class News extends MY_Controller {
 		return $this->confObj['theme'] . "_" . md5(uri_string()) . ".html"; //category/1460001917
 	}
 
-	//api
-	public function api() {
-		$pageNo = $this->input->get('page');
-		$lang 	= $this->input->get('lang');
-		@include(APPPATH.'config/domain.php');
-		
-		if ($this->loadOutCache()) return;
-		
-		$pageNo = (int)$pageNo;
-		$pageSize = $this->confObj['blog']['pageSize'];
-		$pageBarSize = $this->confObj['blog']['pageBarSize'];
-		
-		$pages = $this->markdown->getTotalPages($pageSize, $lang);
-		
-		if ($pageNo <= 0) {
-			$pageNo = 1;
-		}
-		
-		if ($pageNo > $pages) {
-			$pageNo = $pages;
-		}
-		
-		$pageData = $this->markdown->getBlogsByPage($pageNo, $pageSize, $lang);
-		$pagination = $this->pager->splitPage($pages, $pageNo, $pageBarSize);
-		foreach ($pagination['pageList'] as $key => $row) {
-			if(in_array($lang, $lang_suffix)) {
-				$pagination['pageList'][$key]['url'] = '/'.$lang.$row['url'];
-			} 
-		}
-		if(in_array($lang, $lang_suffix)) {
-			$pagination['prev']['url'] = empty($pagination['prev'])?"":'/'.$lang.$pagination['prev']['url'];
-			$pagination['next']['url'] = empty($pagination['next'])?"":'/'.$lang.$pagination['next']['url'];
-		} 
-		foreach ($pageData['blogList'] as $key => $row) {
-			if(in_array($lang, $lang_suffix)) {
-				$pageData['blogList'][$key]['siteURL'] = '/'.$lang.$row['siteURL'];
-			} 
-		}
-		
-		$this->_view_datas['pagination'] = $pagination;
-		$this->_view_datas['pageName'] = $this->lang->line("news_home");	
-		$this->_view_datas['pageNo'] = $pageNo;
-		$this->_view_datas['pages'] = $pageData['pages'];	
-		$this->_view_datas['blogList'] = $pageData['blogList']; 
-		print_r(json_encode($this->_view_datas));
-	}
-
-	public function detail() {
-		$blogId = $this->input->get("blogId");
-		@include(APPPATH.'config/domain.php');
-		$lang = $this->uri->segment(1);
-		if(in_array($lang, $lang_suffix)) {
-			$lang = $this->uri->segment(1);
-		} else {
-			$lang = "cn";
-		}
-		if ($this->loadOutCache()) return;
-
-		if (!$blogId) {
-			if($lang !== "en") {
-				$url = uri_string();
-				$openPage = "/" . substr($url, 3);
-				$blogId = md5($openPage);
-			} else {
-				$openPage = "/" . uri_string();
-				$blogId = md5($openPage);
-			}
-		}
-		
-		$blog = $this->markdown->getBlogById($blogId);
-		
-		$this->_view_datas['pageName'] = $this->lang->line('news_detail_page');
-		$this->_view_datas['blog'] = $blog;
-		$this->_view_datas['title'] = $blog['title'];
-		$this->_view_datas['keywords'] = $blog['keywords'];
-		$this->_view_datas['desc'] = $blog['summary'];	
-		print_r(json_encode($this->_view_datas));
-		
-	}
+	
 
 	private function _array_sort($arr,$keys,$type='desc'){ 
 		$keysvalue = $new_array = array();

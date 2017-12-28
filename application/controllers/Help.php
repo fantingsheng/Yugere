@@ -22,4 +22,15 @@ class Help extends CI_Controller {
 	{
 		$this->load->view('size-guide');
 	}
+
+	public function exchange()
+	{
+		$this->load->view('return-exchange');
+	}
+
+	public function service()
+	{
+		$this->load->view('terms-of-service');
+	}
+
 }

@@ -40,7 +40,7 @@
                         <div class="home-info">
                             <h2 class="video-title-before">HANDMADE BASICS WITH STYLE AND QUALITY</h2>
                             <h1 class="video-title">Modern & Edgy</h1>
-                            <a href="/shop" class="btn btn-1"><span>start shopping now</span></a>
+                            <a href="/shop" class="btn btn-1"><span>View More</span></a>
                         </div>
                     </div>
                 </div>

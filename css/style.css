@@ -2871,24 +2871,24 @@ header.header.header-light .header-cart .cart-link span {
   text-transform: none;
   font-weight: normal;
   padding: 0 110px;
-  font-size: 64px;
-  margin-bottom: 152px;
+  font-size: 42px;
+  margin-bottom: 60px;
 }
 .other-page.about-page .about-page-content {
   text-align: center;
 }
 .other-page.about-page .about-page-content h4 {
-  font-size: 11px;
+  font-size: 14px;
   letter-spacing: 4px;
   text-transform: uppercase;
   margin-bottom: 39px;
 }
 .other-page.about-page .about-page-content img {
-  margin-top: 159px;
+  margin-top: 40px;
   margin-bottom: 71px;
 }
 .other-page.about-page .about-page-content p {
-  font-size: 18px;
+  font-size: 16px;
   padding: 0 180px;
   line-height: 22px;
 }
@@ -3108,7 +3108,37 @@ header.header.header-light .header-cart .cart-link span {
   font-weight: bold;
 }
 .post.post-details .entry-content .post-content p {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+}
+.post.post-details .entry-content .post-content h1 {
+  margin: 10px 0 15px;
+  font-size: 28px;
+  line-height: 1.4;
+}
+.post.post-details .entry-content .post-content h2 {
+  margin: 10px 0 15px;
+  font-size: 26px;
+  line-height: 1.4;
+}
+.post.post-details .entry-content .post-content h3 {
+  margin: 10px 0 15px;
+  font-size: 24px;
+  line-height: 1.4;
+}
+.post.post-details .entry-content .post-content h4 {
+  margin: 10px 0 15px;
+  font-size: 22px;
+  line-height: 1.4;
+}
+.post.post-details .entry-content .post-content h5 {
+  margin: 10px 0 15px;
+  font-size: 20px;
+  line-height: 1.4;
+}
+.post.post-details .entry-content .post-content h6 {
+  margin: 10px 0 15px;
+  font-size: 18px;
+  line-height: 1.4;
 }
 .post.post-details .entry-content .entry-meta {
   padding-left: 27px;

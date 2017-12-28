@@ -147,22 +147,7 @@
             </div>
         </div>
     </div>
-    <footer class="footer">
-        <div class="col-sm-12">
-            <div class="share-product">
-                <span>Share Product</span>
-                <a href="https://www.facebook.com/" target="_blank">
-                    <i class="fa fa-facebook"></i>
-                </a>
-                <a href="https://twitter.com/" target="_blank">
-                    <i class="fa fa-twitter"></i>
-                </a>
-                <a href="https://ru.pinterest.com/" target="_blank">
-                    <i class="fa fa-pinterest"></i>
-                </a>
-            </div>
-        </div>
-    </footer>
+    
 </div>
 <!-- Shop Cart -->
 <div class="cart-wrapper">
