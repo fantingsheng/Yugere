@@ -38,32 +38,16 @@
                 <div class="col-sm-12">
                     <div class="other-page margin-top-75">
                         <!--Title-->
-                        <h3 class="page-title">returns + exchanges</h3>
+                        <h3 class="page-title">定制注意事项</h3>
                         <!-- End Title-->
                         <!--Site text-->
-                        <h6 class="margin-bottom-30">FREE Returns & Exchanges</h6>
                         <p class="margin-bottom-55">
-                            Professionally strategize resource maximizing portals rather
-                            than parallel niches. Energistically provide access to flexible
-                            content and cross-platform experiences. Rapidiously target
-                            alternative schemas before worldwide partnerships. Proactively
-                            predominate B2C relationships before intermandated alignments. Proactively
-                            envisioneer focused markets with ubiquitous methodologies.
+                            定制衣服一旦确认，概不退换，如果出现质量或者做工问题联系本商家，情况合理可以提供修改更换的服务。
                         </p>
-                        <h6 class="margin-bottom-30">How to Make a Return or Exchange</h6>
+                        <p>定制需要提供如下数据：</p>
                         <p>
-                            Globally administrate fully researched applications for timely scenarios.
-                            Assertively simplify multimedia based paradigms without efficient experiences.
-                            Rapidiously formulate collaborative benefits with leveraged e-business.
-                            Seamlessly empower mission-critical core competencies without premier systems.
-                            Competently impact installed base convergence through team building value.
-                        </p>
-                        <p class="margin-top-30">
-                            Globally administrate fully researched applications for timely scenarios.
-                            Assertively simplify multimedia based paradigms without efficient experiences.
-                            Rapidiously formulate collaborative benefits with leveraged e-business. Seamlessly
-                            empower mission-critical core competencies without premier systems. Competently
-                            impact installed base convergence through team building value.
+                            1：肩宽 2：胸围 3：腰围 4：臀围 5：身高 6：体重。测量的方法见<a href="/help" target="_blank">SIZE GUIDE</a>
+                            注意尺寸测量越精准，衣服做出来也就越合身！
                         </p>
                         <!--End Site text-->
                     </div>

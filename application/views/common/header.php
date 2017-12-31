@@ -30,7 +30,7 @@
                     <ul class="sub-menu">
                         <li><a href="/help">SIZE GUIDE</a></li>
                         <li><a href="/help/exchange">RETURNS - EXCHANGES</a></li>
-                        <li><a href="/help/service">TERMS OF SERVICES</a></li>
+                        <!--<li><a href="/help/service">TERMS OF SERVICES</a></li>-->
                     </ul>
                 </li>
             </ul>

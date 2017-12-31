@@ -37,115 +37,94 @@
                     <div class="other-page margin-top-255">
                         <!--Title-->
                         <h3 class="page-title">尺寸指南</h3>
+
                         <!-- End Title-->
                         <!--Table-->
                         <div class="table-group">
+                            <h6>ARC'TERYX女装尺码表</h6>
+                            <div class="text-center"><img src="/images/Help/225407@2x.png" width="800"></div>
                             <!--Table_1-->
-                            <h6>women’s clothing - international size conversion</h6>
+                            <h6>女装上衣尺码表（厘米）</h6>
                             <table class="margin-bottom-50">
                                 <tr>
-                                   <th></th>
-                                    <th>X-SMALL</th>
-                                    <th>SMALL</th>
-                                    <th>MEDIUM</th>
-                                    <th>LARGE</th>
+                                   <th>身体尺码</th>
+                                    <th>XS | 00-2<br>厘米</th>
+                                    <th>S | 4-6<br>厘米</th>
+                                    <th>M | 8-10<br>厘米</th>
+                                    <th>L | 12-14<br>厘米</th>
+                                    <th>XL | 16-18<br>厘米</th>
                                 </tr>
                                 <tr>
-                                    <td>US</td>
-                                    <td>2/4</td>
-                                    <td>4/6</td>
-                                    <td>8</td>
-                                    <td>10</td>
+                                    <td>胸围</td>
+                                    <td>84</td>
+                                    <td>89</td>
+                                    <td>94</td>
+                                    <td>102</td>
+                                    <td>112</td>
                                 </tr>
                                 <tr>
-                                    <td>UK</td>
-                                    <td>8</td>
-                                    <td>10</td>
-                                    <td>12</td>
-                                    <td>14</td>
+                                    <td>腰围</td>
+                                    <td>64</td>
+                                    <td>69</td>
+                                    <td>74</td>
+                                    <td>81</td>
+                                    <td>91</td>
                                 </tr>
                                 <tr>
-                                    <td>EU</td>
-                                    <td>34</td>
-                                    <td>36</td>
-                                    <td>38</td>
-                                    <td>40</td>
+                                    <td>臀围</td>
+                                    <td>91</td>
+                                    <td>97</td>
+                                    <td>102</td>
+                                    <td>109</td>
+                                    <td>119</td>
                                 </tr>
                                 <tr>
-                                    <td>AUS</td>
-                                    <td>6</td>
-                                    <td>8</td>
-                                    <td>10</td>
-                                    <td>12</td>
+                                    <td>袖长</td>
+                                    <td>75</td>
+                                    <td>77</td>
+                                    <td>80</td>
+                                    <td>83</td>
+                                    <td>85</td>
                                 </tr>
                             </table>
                             <!--Table_2-->
-                            <h6>BODY MESURMENTS</h6>
+                            <h6>女装裤子尺码表（厘米）</h6>
                             <table>
                                 <tr>
-                                    <th></th>
-                                    <th colspan="2">X-SMALL</th>
-                                    <th colspan="2">WAIST</th>
-                                    <th colspan="2">HIPS</th>
+                                    <th>身体尺码</th>
+                                    <th>XS<br>厘米</th>
+                                    <th>S<br>厘米</th>
+                                    <th>M<br>厘米</th>
+                                    <th>L<br>厘米</th>
+                                    <th>XL<br>厘米</th>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td>INCHES</td>
-                                    <td>CM</td>
-                                    <td>INCHES</td>
-                                    <td>CM</td>
-                                    <td>INCHES</td>
-                                    <td>CM</td>
-                                </tr>
-                                <tr>
-                                    <td>US</td>
-                                    <td>31.5</td>
-                                    <td>80</td>
-                                    <td>24.5</td>
-                                    <td>62</td>
-                                    <td>33.75</td>
-                                    <td>86</td>
-                                </tr>
-                                <tr>
-                                    <td>UK</td>
-                                    <td>33</td>
-                                    <td>84</td>
-                                    <td>26</td>
-                                    <td>66</td>
-                                    <td>35.5</td>
-                                    <td>90</td>
-                                </tr>
-                                <tr>
-                                    <td>EU</td>
-                                    <td>34.5</td>
-                                    <td>88</td>
-                                    <td>27.5</td>
-                                    <td>70</td>
-                                    <td>37</td>
-                                    <td>94</td>
-                                </tr>
-                                <tr>
-                                    <td>AUS</td>
-                                    <td>36.25</td>
-                                    <td>92</td>
-                                    <td>29.25</td>
+                                    <td>腰围</td>
+                                    <td>64</td>
+                                    <td>69</td>
                                     <td>74</td>
-                                    <td>38.5</td>
-                                    <td>98</td>
+                                    <td>81</td>
+                                    <td>91</td>
+                                </tr>
+                                <tr>
+                                    <td>臀围</td>
+                                    <td>91</td>
+                                    <td>97</td>
+                                    <td>102</td>
+                                    <td>109</td>
+                                    <td>119</td>
                                 </tr>
                             </table>
                         </div>
                         <!--End Table-->
                         <!--Size Guide Info-->
                         <div class="info">
-                           <div class="info-title">
-                               <h5>Mesuring Guidelines</h5>
-                           </div>
+                            <div class="info-title"></div>
                             <div class="info-content">
-                                <p>Bust: metiens nimirum pars imaginis sub armis retentis tape paralleli areae.</p>
-                                <p>Lumbos: metiens metire in circuitu ubi angustae fauces custodiens tape commode superhumerale nequeant separari.</p>
-                                <p>Coxis: metiens metire horizontaliter circa plenissima membrorum tuorum imo / superiorem femorum proxime VIII "Infra waistline.</p>
-                                <p>Inseam: metiens perpendiculari ex illis usque ad interfeminium linea sequens naturales pede.</p>
+                                <p>请注意： 裤装数字尺码</p>
+                                <p>Arc'teryx裤装的多个款型采用数字尺码，可提供不同的内缝长度。</p>
+                                <p>请参考具体产品页面，查看该产品所提供的腰围和内缝长度。</p>
+                                <p>对于其他各种数字尺码裤装，如果未指定内缝长度，则适用以下内缝长度尺寸。</p>
                             </div>
                         </div>
                     </div>

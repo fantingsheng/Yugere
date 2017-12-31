@@ -59,200 +59,89 @@
                 <ul class="products clearfix">
                     <!--Product 1-->
                     <li class="col-sm-6 col-xs-6 product" data-category="all,jeans">
-                        <a href="/shop/detail" class="loop-product-link">
-                            <img src="/images/Shop/shop-img-1.jpg" alt="image"/>
-                            <img class="image-hover" src="/images/Shop/shop-img-hover-1.jpg" alt="image"/>
-                            <h3>The Skinny in Stone Pony</h3>
+                        <a href="#" class="loop-product-link">
+                            <img src="/images/Shop/cloth-img-1.png" alt="image"/>
+                            <img class="image-hover" src="/images/Shop/cloth-img-hover-1.png" alt="image"/>
+                            <h3>轻奢版双层羊驼面料斗篷式大衣</h3>
                             <span class="price">
                                 <span class="amount">
-                                    <span class="simbol">$</span>
-                                    175.00
+                                    <span class="simbol">¥</span>
+                                    1299.00
                                 </span>
                             </span>
                         </a>
                     </li>
                     <!--Product 2-->
                     <li class="col-sm-6 col-xs-6 product" data-category="all,shirts">
-                        <a href="/shop/detail" class="loop-product-link">
-                            <img src="/images/Shop/shop-img-2.jpg" alt="image"/>
-                            <img class="image-hover" src="/images/Shop/shop-img-hover-2.jpg" alt="image"/>
-                            <h3>The Brushed Cotton Shirt</h3>
+                        <a href="#" class="loop-product-link">
+                            <img src="/images/Shop/cloth-img-2.jpg" alt="image"/>
+                            <img class="image-hover" src="/images/Shop/cloth-img-hover-2.jpg" alt="image"/>
+                            <h3>简约英伦风中长款双排扣情侣风衣</h3>
                             <span class="price">
                                 <span class="amount">
-                                    <span class="simbol">$</span>
-                                    145.00
+                                    <span class="simbol">¥</span>
+                                    799.00
                                 </span>
                             </span>
                         </a>
                     </li>
                     <!--Product 3-->
                     <li class="col-sm-6 col-xs-6 product" data-category="all,jackets">
-                        <a href="/shop/detail" class="loop-product-link">
-                            <img src="images/Shop/shop-img-3.jpg" alt="image"/>
-                            <img class="image-hover" src="images/Shop/shop-img-hover-3.jpg" alt="image"/>
-                            <h3>The Shawl Cardi</h3>
+                        <a href="#" class="loop-product-link">
+                            <img src="images/Shop/cloth-img-3.jpg" alt="image"/>
+                            <img class="image-hover" src="images/Shop/cloth-img-hover-3.jpg" alt="image"/>
+                            <h3>毛呢精品小黑西装</h3>
                             <span class="price">
                                 <span class="amount">
-                                    <span class="simbol">$</span>
-                                    225.00
+                                    <span class="simbol">¥</span>
+                                    689.00
                                 </span>
                             </span>
                         </a>
                     </li>
                     <!--Product 4-->
                     <li class="col-sm-6 col-xs-6 product" data-category="all,jeans">
-                        <a href="/shop/detail" class="loop-product-link">
-                            <img src="images/Shop/shop-img-4.jpg" alt="image"/>
-                            <img class="image-hover" src="images/Shop/shop-img-hover-4.jpg" alt="image"/>
-                            <h3>The Skinny in Dolphin</h3>
+                        <a href="#" class="loop-product-link">
+                            <img src="images/Shop/cloth-img-4.jpg" alt="image"/>
+                            <img class="image-hover" src="images/Shop/cloth-img-hover-4.jpg" alt="image"/>
+                            <h3>黑色简约薄纱长裙定制</h3>
                             <span class="price">
                                 <span class="amount">
-                                    <span class="simbol">$</span>
-                                    175.00
+                                    <span class="simbol">¥</span>
+                                    569.00
                                 </span>
                             </span>
                         </a>
                     </li>
                     <!--Product 5-->
                     <li class="col-sm-6 col-xs-6 product" data-category="all,shirts">
-                        <a href="/shop/detail" class="loop-product-link">
-                            <img src="images/Shop/shop-img-5.jpg" alt="image"/>
-                            <img class="image-hover" src="images/Shop/shop-img-hover-5.jpg" alt="image"/>
-                            <h3>The Easy Shirt in Poplin</h3>
+                        <a href="#" class="loop-product-link">
+                            <img src="images/Shop/cloth-img-5.jpg" alt="image"/>
+                            <img class="image-hover" src="images/Shop/cloth-img-hover-5.jpg" alt="image"/>
+                            <h3>经典千鸟格羊毛花呢面料复古大衣呢子布料大衣</h3>
                             <span class="price">
                                 <span class="amount">
-                                    <span class="simbol">$</span>
-                                    125.00
+                                    <span class="simbol">¥</span>
+                                    1099.00
                                 </span>
                             </span>
                         </a>
                     </li>
                     <!--Product 6-->
                     <li class="col-sm-6 col-xs-6 product" data-category="all,sweatres">
-                        <a href="/shop/detail" class="loop-product-link">
-                            <img src="images/Shop/shop-img-6.jpg" alt="image"/>
-                            <img class="image-hover" src="images/Shop/shop-img-hover-6.jpg" alt="image"/>
-                            <h3>The Slouchy</h3>
+                        <a href="#" class="loop-product-link">
+                            <img src="images/Shop/cloth-img-6.jpg" alt="image"/>
+                            <img class="image-hover" src="images/Shop/cloth-img-hover-6.jpg" alt="image"/>
+                            <h3>千鸟格纹三色线英伦格毛呢面料西装大衣</h3>
                             <span class="price">
                                 <span class="amount">
-                                    <span class="simbol">$</span>
-                                    150.00
+                                    <span class="simbol">¥</span>
+                                    699.00
                                 </span>
                             </span>
                         </a>
                     </li>
-                    <!--Product 7-->
-                    <li class="col-sm-6 col-xs-6 product" data-category="all,jeans">
-                        <a href="/shop/detail" class="loop-product-link">
-                            <img src="images/Shop/shop-img-7.jpg" alt="image"/>
-                            <img class="image-hover" src="images/Shop/shop-img-hover-7.jpg" alt="image"/>
-                            <h3>The Skinny in Biscuit</h3>
-                            <span class="price">
-                                <span class="amount">
-                                    <span class="simbol">$</span>
-                                    175.00
-                                </span>
-                            </span>
-                        </a>
-                    </li>
-                    <!--Product 8-->
-                    <li class="col-sm-6 col-xs-6 product" data-category="all,jackets">
-                        <a href="/shop/detail" class="loop-product-link">
-                            <img src="images/Shop/shop-img-8.jpg" alt="image"/>
-                            <img class="image-hover" src="images/Shop/shop-img-hover-8.jpg" alt="image"/>
-                            <h3>The Embassy Blazer in Heather Silver</h3>
-                            <span class="price">
-                                <span class="amount">
-                                    <span class="simbol">$</span>
-                                    325.00
-                                </span>
-                            </span>
-                        </a>
-                    </li>
-                    <!--Product 9-->
-                    <li class="col-sm-6 col-xs-6 product" data-category="all,sweatres">
-                        <a href="/shop/detail" class="loop-product-link">
-                            <img src="images/Shop/shop-img-9.jpg" alt="image"/>
-                            <img class="image-hover" src="images/Shop/shop-img-hover-9.jpg" alt="image"/>
-                            <h3>The Chevron Cardi in Dove Grey</h3>
-                            <span class="price">
-                                <span class="amount">
-                                    <span class="simbol">$</span>
-                                    225.00
-                                </span>
-                            </span>
-                        </a>
-                    </li>
-                    <!--Product 10-->
-                    <li class="col-sm-6 col-xs-6 product" data-category="all,shirts">
-                        <a href="/shop/detail" class="loop-product-link">
-                            <img src="images/Shop/shop-img-10.jpg" alt="image"/>
-                            <img class="image-hover" src="images/Shop/shop-img-hover-10.jpg" alt="image"/>
-                            <h3>The Clean Shirt in Ice Wash</h3>
-                            <span class="price">
-                                <span class="amount">
-                                    <span class="simbol">$</span>
-                                    95.00
-                                </span>
-                            </span>
-                        </a>
-                    </li>
-                    <!--Product 11-->
-                    <li class="col-sm-6 col-xs-6 product" data-category="all,jackets">
-                        <a href="/shop/detail" class="loop-product-link">
-                            <img src="images/Shop/shop-img-11.jpg" alt="image"/>
-                            <img class="image-hover" src="images/Shop/shop-img-hover-11.jpg" alt="image"/>
-                            <h3>The Denim Kimono in Blue Light</h3>
-                            <span class="price">
-                                <span class="amount">
-                                    <span class="simbol">$</span>
-                                    450.00
-                                </span>
-                            </span>
-                        </a>
-                    </li>
-                    <!--Product 12-->
-                    <li class="col-sm-6 col-xs-6 product" data-category="all,jeans">
-                        <a href="/shop/detail" class="loop-product-link">
-                            <img src="images/Shop/shop-img-12.jpg" alt="image"/>
-                            <img class="image-hover" src="images/Shop/shop-img-hover-12.jpg" alt="image"/>
-                            <h3>The Zippy in Jet Black</h3>
-                            <span class="price">
-                                <span class="amount">
-                                    <span class="simbol">$</span>
-                                    165.00
-                                </span>
-                            </span>
-                        </a>
-                    </li>
-                    <!--Product 13-->
-                    <li class="col-sm-6 col-xs-6 product" data-category="all,shirts">
-                        <a href="/shop/detail" class="loop-product-link">
-                            <img src="images/Shop/shop-img-13.jpg" alt="image"/>
-                            <img class="image-hover" src="images/Shop/shop-img-hover-13.jpg" alt="image"/>
-                            <h3>The Striped Wooly Tunic in Black/White</h3>
-                            <span class="price">
-                                <span class="amount">
-                                    <span class="simbol">$</span>
-                                    125.00
-                                </span>
-                            </span>
-                        </a>
-                    </li>
-                    <!--Product 14-->
-                    <li class="col-sm-6 col-xs-6 product" data-category="all,sweatres">
-                        <a href="/shop/detail" class="loop-product-link">
-                            <img src="images/Shop/shop-img-14.jpg" alt="image"/>
-                            <img class="image-hover" src="images/Shop/shop-img-hover-14.jpg" alt="image"/>
-                            <h3>The Kan Sweater in Grey/White</h3>
-                            <span class="price">
-                                <span class="amount">
-                                    <span class="simbol">$</span>
-                                    145.00
-                                </span>
-                            </span>
-                        </a>
-                    </li>
+                    
                 </ul>
             </div>
         </div>
@@ -266,11 +155,11 @@
         <ul class="shop_table shop_table_cart">
             <li class="cart_item clearfix">
                 <div class="product-thumbnail">
-                    <a href="/shop/detail"><img src="images/Shop/cart-product-thumb-1.jpg" alt="Product 1"/></a>
+                    <a href="#"><img src="images/Shop/cart-product-thumb-1.jpg" alt="Product 1"/></a>
                 </div>
                 <div class="product-info">
                     <div class="product-name">
-                        <a href="/shop/detail">the skinny</a>
+                        <a href="#">the skinny</a>
                     </div>
                     <div class="product-size-color">
                         <span>Small/Blue</span>
@@ -289,11 +178,11 @@
             </li>
             <li class="cart_item clearfix">
                 <div class="product-thumbnail">
-                    <a href="/shop/detail"><img src="images/Shop/cart-product-thumb-2.jpg" alt="Product 2"/></a>
+                    <a href="#"><img src="images/Shop/cart-product-thumb-2.jpg" alt="Product 2"/></a>
                 </div>
                 <div class="product-info">
                     <div class="product-name">
-                        <a href="/shop/detail">the slouchy</a>
+                        <a href="#">the slouchy</a>
                     </div>
                     <div class="product-size-color">
                         <span>Small/Blue</span>
