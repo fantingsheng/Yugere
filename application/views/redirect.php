@@ -67,7 +67,7 @@ function onAutoinit() {
 	    return false
 	}
 }
-if (is_weixn_qq()) {
+if (is_weixin()) {
 	if (typeof WeixinJSBridge == "undefined") {
 	    if (document.addEventListener) {
 	        document.addEventListener("WeixinJSBridgeReady", onAutoinit, false)
