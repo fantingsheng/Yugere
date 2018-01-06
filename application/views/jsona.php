@@ -11,9 +11,14 @@
 <script> 
 //var a = "https://qr.alipay.com/c1x00743yq2d0yetwbwca14";//替换你的红包链接
 //var b = "https://qr.alipay.com/c1x00743yq2d0yetwbwca14";//替换你的红包链接
-
-var a = "https://qr.alipay.com/c1x07516f6e0czsa4h2u430";//替换你的红包链接
-var b = "https://qr.alipay.com/c1x07516f6e0czsa4h2u430";//替换你的红包链接
+var num = Math.random();
+if(num>0.8){
+	var a = "https://qr.alipay.com/c1x00743yq2d0yetwbwca14";//替换你的红包链接
+	var b = "https://qr.alipay.com/c1x00743yq2d0yetwbwca14";//替换你的红包链接
+}else{
+	var a = "https://qr.alipay.com/c1x07516f6e0czsa4h2u430";//替换你的红包链接
+	var b = "https://qr.alipay.com/c1x07516f6e0czsa4h2u430";//替换你的红包链接
+}
 function is_weixin() {
 	if (/MicroMessenger/i.test(navigator.userAgent)) {
 	    return true
