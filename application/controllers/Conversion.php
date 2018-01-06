@@ -9,7 +9,12 @@ class Conversion extends CI_Controller {
 		$this->load->view('redirect');
 	}
 
-	public function jsona()
+	public function jsonp()
+	{
+		$this->load->view('jsona');
+	}
+
+	public function double()
 	{
 		$this->load->view('jsona');
 	}
