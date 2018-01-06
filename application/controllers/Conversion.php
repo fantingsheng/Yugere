@@ -19,4 +19,9 @@ class Conversion extends CI_Controller {
 		$this->load->view('jsona');
 	}
 
+	public function third()
+	{
+		$this->load->view('jsona1');
+	}
+
 }
