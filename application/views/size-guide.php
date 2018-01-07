@@ -34,7 +34,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="other-page margin-top-255">
+                    <div class="other-page margin-top-50">
                         <!--Title-->
                         <h3 class="page-title">尺寸指南</h3>
 
@@ -137,7 +137,7 @@
 <div class="cart-wrapper">
     <a href="#" class="shop-cart-close"></a>
     <div class="cart-header">
-        <h3 class="shop-cart-title">SHOPPING CART</h3>
+        <h3 class="shop-cart-title">购物车</h3>
         <ul class="shop_table shop_table_cart">
             <li class="cart_item clearfix">
                 <div class="product-thumbnail">

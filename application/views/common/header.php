@@ -9,27 +9,27 @@
 <div class="theme-menu">
     <a href="#" class="menu-header-close-button-mobile"></a>
     <div class="menu-header">
-        <h3 class="menu-title">MENU</h3>
+        <h3 class="menu-title">菜单</h3>
         <nav class="menu">
             <ul>
                 <li class="menu-item-has-children">
-                    <a href="/">HOME</a>
+                    <a href="/">首页</a>
                 </li>
                 <li class="menu-item-has-children">
-                    <a href="/imovie">VIDEO</a>
+                    <a href="/imovie">视频</a>
                 </li>
                 <li class="menu-item-has-children">
-                    <a href="/shop">SHOP</a>
+                    <a href="/shop">商店</a>
                 </li>
-                <li><a href="/about">ABOUT</a></li>
-                <li><a href="/news">BLOG</a></li>
-                <li><a href="/contact">CONTACT</a></li>
+                <li><a href="/about">关于</a></li>
+                <li><a href="/news">博客</a></li>
+                <li><a href="/contact">联系我们</a></li>
                 <li class="menu-item-has-children">
                     <a href="#" class="menu-icon"></a>
-                    <a href="/help">HELP</a>
+                    <a href="/help">帮助中心</a>
                     <ul class="sub-menu">
-                        <li><a href="/help">SIZE GUIDE</a></li>
-                        <li><a href="/help/exchange">RETURNS - EXCHANGES</a></li>
+                        <li><a href="/help">尺寸指南</a></li>
+                        <li><a href="/help/exchange">退换说明</a></li>
                         <!--<li><a href="/help/service">TERMS OF SERVICES</a></li>-->
                     </ul>
                 </li>
@@ -42,7 +42,7 @@
     <div class="menu-footer">
         <ul class="menu-social">
             <li class="social-icon">
-                <a href="" target="_blank"><i class="fa fa-wechat"></i></a>
+                <a href="" data-toggle="modal" data-target="#wechatModal" target="_blank"><i class="fa fa-wechat"></i></a>
             </li>
             <li class="social-icon">
                 <a href="https://weibo.com/ivystudio728" target="_blank"><i class="fa fa-weibo"></i></a>
@@ -53,6 +53,22 @@
                 <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
             </li>
         </ul>
+    </div>
+</div>
+<!--Wechat modal-->
+<div class="modal fade" id="wechatModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body text-center">
+                <div>
+                    <img src="/images/About/wechat.jpg" alt="悦己服装高级定制">
+                </div>
+                <p>悦己服装高级定制品牌</p>
+            </div>
+        </div>
     </div>
 </div>
 <!-- End Theme Menu -->
@@ -69,7 +85,7 @@
         </div>
         <div class="header-cart">
             <a href="#" class="cart-link">
-                <strong>CART</strong>
+                <strong>购物车</strong>
                 <span>2</span></a>
         </div>
     </header>

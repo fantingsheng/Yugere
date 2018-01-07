@@ -37,19 +37,22 @@
                     <div class="categories-list">
                         <ul class="categories-list-nav">
                             <li class="active-category">
-                                <a href="#" data-category="all">all</a>
+                                <a href="#" data-category="all">所有</a>
                             </li>
                             <li>
-                                <a href="#" data-category="shirts">shirts</a>
+                                <a href="#" data-category="shirts">衬衫</a>
                             </li>
                             <li>
-                                <a href="#" data-category="sweatres">sweatres</a>
+                                <a href="#" data-category="winds">风衣</a>
                             </li>
                             <li>
-                                <a href="#" data-category="jeans">jeans</a>
+                                <a href="#" data-category="overcoats">大衣</a>
                             </li>
                             <li>
-                                <a href="#" data-category="jackets">jackets</a>
+                                <a href="#" data-category="suits">西装</a>
+                            </li>
+                            <li>
+                                <a href="#" data-category="skirt">裙子</a>
                             </li>
                         </ul>
                     </div>
@@ -58,7 +61,7 @@
             <div class="row">
                 <ul class="products clearfix">
                     <!--Product 1-->
-                    <li class="col-sm-6 col-xs-6 product" data-category="all,jeans">
+                    <li class="col-sm-6 col-xs-6 product" data-category="all,overcoats">
                         <a href="#" class="loop-product-link">
                             <img src="/images/Shop/cloth-img-1.png" alt="image"/>
                             <img class="image-hover" src="/images/Shop/cloth-img-hover-1.png" alt="image"/>
@@ -72,7 +75,7 @@
                         </a>
                     </li>
                     <!--Product 2-->
-                    <li class="col-sm-6 col-xs-6 product" data-category="all,shirts">
+                    <li class="col-sm-6 col-xs-6 product" data-category="all,winds">
                         <a href="#" class="loop-product-link">
                             <img src="/images/Shop/cloth-img-2.jpg" alt="image"/>
                             <img class="image-hover" src="/images/Shop/cloth-img-hover-2.jpg" alt="image"/>
@@ -86,7 +89,7 @@
                         </a>
                     </li>
                     <!--Product 3-->
-                    <li class="col-sm-6 col-xs-6 product" data-category="all,jackets">
+                    <li class="col-sm-6 col-xs-6 product" data-category="all,suits">
                         <a href="#" class="loop-product-link">
                             <img src="images/Shop/cloth-img-3.jpg" alt="image"/>
                             <img class="image-hover" src="images/Shop/cloth-img-hover-3.jpg" alt="image"/>
@@ -100,7 +103,7 @@
                         </a>
                     </li>
                     <!--Product 4-->
-                    <li class="col-sm-6 col-xs-6 product" data-category="all,jeans">
+                    <li class="col-sm-6 col-xs-6 product" data-category="all,skirt">
                         <a href="#" class="loop-product-link">
                             <img src="images/Shop/cloth-img-4.jpg" alt="image"/>
                             <img class="image-hover" src="images/Shop/cloth-img-hover-4.jpg" alt="image"/>
@@ -114,7 +117,7 @@
                         </a>
                     </li>
                     <!--Product 5-->
-                    <li class="col-sm-6 col-xs-6 product" data-category="all,shirts">
+                    <li class="col-sm-6 col-xs-6 product" data-category="all,overcoats">
                         <a href="#" class="loop-product-link">
                             <img src="images/Shop/cloth-img-5.jpg" alt="image"/>
                             <img class="image-hover" src="images/Shop/cloth-img-hover-5.jpg" alt="image"/>
@@ -128,7 +131,7 @@
                         </a>
                     </li>
                     <!--Product 6-->
-                    <li class="col-sm-6 col-xs-6 product" data-category="all,sweatres">
+                    <li class="col-sm-6 col-xs-6 product" data-category="all,overcoats">
                         <a href="#" class="loop-product-link">
                             <img src="images/Shop/cloth-img-6.jpg" alt="image"/>
                             <img class="image-hover" src="images/Shop/cloth-img-hover-6.jpg" alt="image"/>
@@ -151,7 +154,7 @@
 <div class="cart-wrapper">
     <a href="#" class="shop-cart-close"></a>
     <div class="cart-header">
-        <h3 class="shop-cart-title">SHOPPING CART</h3>
+        <h3 class="shop-cart-title">购物车</h3>
         <ul class="shop_table shop_table_cart">
             <li class="cart_item clearfix">
                 <div class="product-thumbnail">

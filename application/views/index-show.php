@@ -38,9 +38,9 @@
                 <div class="icell">
                     <div class="video-content">
                         <div class="home-info">
-                            <h2 class="video-title-before">HANDMADE BASICS WITH STYLE AND QUALITY</h2>
-                            <h1 class="video-title">Modern & Edgy</h1>
-                            <a href="/shop" class="btn btn-1"><span>View More</span></a>
+                            <h2 class="video-title-before">高级手工定制，款式与品质并重</h2>
+                            <h1 class="video-title">时尚，简约，舒适</h1>
+                            <a href="/shop" class="btn btn-1"><span>更多展示</span></a>
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
 <div class="cart-wrapper">
     <a href="#" class="shop-cart-close"></a>
     <div class="cart-header">
-        <h3 class="shop-cart-title">SHOPPING CART</h3>
+        <h3 class="shop-cart-title">购物车</h3>
         <ul class="shop_table shop_table_cart">
             <li class="cart_item clearfix">
                 <div class="product-thumbnail">

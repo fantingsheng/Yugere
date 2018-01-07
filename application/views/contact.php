@@ -68,7 +68,7 @@
 <div class="cart-wrapper">
     <a href="#" class="shop-cart-close"></a>
     <div class="cart-header">
-        <h3 class="shop-cart-title">SHOPPING CART</h3>
+        <h3 class="shop-cart-title">购物车</h3>
         <ul class="shop_table shop_table_cart">
             <li class="cart_item clearfix">
                 <div class="product-thumbnail">

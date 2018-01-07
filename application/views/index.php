@@ -38,9 +38,9 @@
                     <div class="itable">
                         <div class="icell">
                             <div class="slider-content">
-                                <h2 class="slider-title-before">HANDMADE BASICS WITH STYLE AND QUALITY</h2>
-                                <h1 class="slider-title">Come in time</h1>
-                                <a href="/shop" class="btn btn-1"><span>start shopping now</span></a>
+                                <h2 class="slider-title-before">高级手工定制，款式与品质并重</h2>
+                                <h1 class="slider-title">久等了，终于来了</h1>
+                                <a href="/shop" class="btn btn-1"><span>购物中心</span></a>
                             </div>
                         </div>
                     </div>
@@ -50,9 +50,9 @@
                     <div class="itable">
                         <div class="icell">
                             <div class="slider-content">
-                                <h2 class="slider-title-before">HANDMADE BASICS WITH STYLE AND QUALITY</h2>
-                                <h1 class="slider-title">Modern & Edgy</h1>
-                                <a href="/shop" class="btn btn-1"><span>start shopping now</span></a>
+                                <h2 class="slider-title-before">高级手工定制，款式与品质并重</h2>
+                                <h1 class="slider-title">走在时尚的前沿</h1>
+                                <a href="/shop" class="btn btn-1"><span>购物中心</span></a>
                             </div>
                         </div>
                     </div>
@@ -62,9 +62,9 @@
                     <div class="itable">
                         <div class="icell">
                             <div class="slider-content">
-                                <h2 class="slider-title-before">HANDMADE BASICS WITH STYLE AND QUALITY</h2>
-                                <h1 class="slider-title">Back to Black</h1>
-                                <a href="/shop" class="btn btn-1"><span>start shopping now</span></a>
+                                <h2 class="slider-title-before">高级手工定制，款式与品质并重</h2>
+                                <h1 class="slider-title">黑色，永不过时的经典</h1>
+                                <a href="/shop" class="btn btn-1"><span>购物中心</span></a>
                             </div>
                         </div>
                     </div>
