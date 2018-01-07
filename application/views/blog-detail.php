@@ -72,7 +72,7 @@
                     <!-- Sidebar 1-->
                     <aside class="widget widget_categories clearfix">
                         <h2 class="widget-title">
-                            <span>category</span>
+                            <span>分类目录</span>
                         </h2>
                         <ul>
                             <?php foreach($blog['tags'] as $cate): ?>
@@ -85,19 +85,18 @@
                     <!-- Sidebar 1-->
                     <aside class="widget widget_recent_entries clearfix">
                         <h2 class="widget-title">
-                            <span>recent posts</span>
+                            <span>最新文章</span>
                         </h2>
                         <ul>
                             <li>
                                 <a href="/news/zhiban.html">翻驳领制版教程详解</a>
                             </li>
-                           
                         </ul>
                     </aside>
                     <!-- Sidebar 3-->
                     <aside class="widget widget_archive clearfix">
                         <h2 class="widget-title">
-                            <span>archive</span>
+                            <span>归档</span>
                         </h2>
                         <ul>
                             <?php foreach($yearMonths as $year): ?>
