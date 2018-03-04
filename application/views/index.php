@@ -24,7 +24,7 @@
     <!-- Style CSS -->
     <link href="<?=base_url('css/bootstrap.min.css')?>" media="screen" rel="stylesheet">
     <link href="<?=base_url('css/font-awesome.css')?>" media="screen" rel="stylesheet">
-    <link href="<?=base_url('css/style.css')?>" media="screen" rel="stylesheet">
+    <link href="<?=base_url('css/style20180304.min.css')?>" media="screen" rel="stylesheet">
 </head>
 <body>
 <?php include "common/header.php" ?>
@@ -32,9 +32,20 @@
     <section class="home-slider">
         <div id="home-slider" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->
-            <!-- Slider 1 -->
             <div class="carousel-inner" role="listbox">
-                <div class="item active" style="background-image: url('<?=base_url('images/Home-Slider/slide-1.jpg')?>')">
+                <!-- Slider 1 -->
+                <div class="item active" style="background-image: url('<?=base_url('images/Home-Slider/slide-4.jpg')?>')">
+                    <div class="itable">
+                        <div class="icell">
+                            <div class="slider-content">
+                                <h2 class="slider-title-before">高级手工定制，款式与品质并重</h2>
+                                <h1 class="slider-title">独具匠心，衣人品质</h1>
+                                <a href="/shop" class="btn btn-1"><span>购物中心</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url('<?=base_url('images/Home-Slider/slide-1.jpg')?>')">
                     <div class="itable">
                         <div class="icell">
                             <div class="slider-content">
@@ -51,7 +62,7 @@
                         <div class="icell">
                             <div class="slider-content">
                                 <h2 class="slider-title-before">高级手工定制，款式与品质并重</h2>
-                                <h1 class="slider-title">走在时尚的前沿</h1>
+                                <h1 class="slider-title">版型，一件衣服的灵魂</h1>
                                 <a href="/shop" class="btn btn-1"><span>购物中心</span></a>
                             </div>
                         </div>
@@ -76,6 +87,7 @@
                 <li data-target="#home-slider" data-slide-to="0" class="active"></li>
                 <li data-target="#home-slider" data-slide-to="1"></li>
                 <li data-target="#home-slider" data-slide-to="2"></li>
+                <li data-target="#home-slider" data-slide-to="3"></li>
             </ol>
         </div>
     </section>

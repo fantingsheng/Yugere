@@ -39,7 +39,8 @@
                         <!--Title-->
                         <h3 class="page-title">联系我们</h3>
                         <div class="link-email">
-                            <a href="mailto:vlad@htmlbook.ru">contact@yugere.com</a>
+                            <a href="mailto:vlad@htmlbook.ru">contact@yugere.com</a><br>
+                            <a>Tel: 13921290939</a>
                         </div>
                         <!--End Title-->
                         <!--Form-->

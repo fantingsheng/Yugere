@@ -39,12 +39,12 @@
                         <!-- End Title-->
                         <div class="about-page-content">
                             <h4>YUGERE TO HAPPY YOURSELF AND MAKE EVERYTHING MORE BETTER </h4>
-                            <img src="images/About/shop-brand.png" alt="images"/>
+                            <img src="images/About/shop-brand.png" width=500 alt="images"/>
                             <h4>Focusing on quality and unique personal style</h4>
                             <p>人的一生每个人都需要一件高级定制，它是个人外在追求的象征。俗话说人靠衣服马靠鞍，一件衣服不仅要品质好，更要与你的身材完美的契合。不是你去迎合衣服的大小，而要让衣服为你而生！</p>
                             <p>为什么要高级定制？所有珍贵的美好，都应该高傲地绝版！</p>
                             <p>—— IVYTRIP</p>
-                            <img src="images/About/yugere.png" alt="images"/>
+                            <img src="images/About/yugere.png" width=500 alt="images"/>
                         </div>
 
                     </div>

@@ -1178,7 +1178,7 @@ header.header .logo-wrap {
 }
 header.header .logo-wrap .theme-logo {
   font-family: 'Kaushan Script', cursive;
-  font-size: 34px;
+  font-size: 36px;
   line-height: 34px;
   color: #333333;
 }
@@ -1466,7 +1466,7 @@ header.header.header-light .header-cart .cart-link span {
 }
 .home-slider .carousel-inner .item .slider-content .slider-title {
   font-family: 'Vollkorn', serif;
-  font-size: 60px;
+  font-size: 56px;
   font-weight: 400;
   margin-bottom: 52px;
 }
