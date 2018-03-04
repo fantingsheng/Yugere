@@ -48,8 +48,8 @@
         </div>
         <div class="video">
             <video width="100%" height="auto" autoplay="autoplay" loop="loop" preload="auto" muted="muted" poster="/images/Home-Video/yugere.jpg">
-                <source src="/images/Home-Video/yugere.mp4" type="video/mp4"/>
-                <source src="/images/Home-Video/yugere.webm" type="video/webm">
+                <source src="/images/Home-Video/yugere-1.mp4" type="video/mp4"/>
+                <source src="/images/Home-Video/yugere-1.webm" type="video/webm">
             </video>
         </div>
     </div>
