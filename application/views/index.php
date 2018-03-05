@@ -39,7 +39,7 @@
                         <div class="icell">
                             <div class="slider-content">
                                 <h2 class="slider-title-before">高级手工定制，款式与品质并重</h2>
-                                <h1 class="slider-title">独具匠心，衣人品质</h1>
+                                <h1 class="slider-title">精工细作，至上品质</h1>
                                 <a href="/shop" class="btn btn-1"><span>购物中心</span></a>
                             </div>
                         </div>
