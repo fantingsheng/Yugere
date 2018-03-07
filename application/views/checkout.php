@@ -27,7 +27,7 @@
     <!-- Selectize -->
     <link href="<?=base_url('css/selectize.css')?>" media="screen" rel="stylesheet">
     <!-- Style -->
-    <link href="<?=base_url('css/style.css')?>" media="screen" rel="stylesheet">
+    <link href="<?=base_url('css/style20180304.min.css')?>" media="screen" rel="stylesheet">
 </head>
 <body class="shop-page shop-page-checkout">
      

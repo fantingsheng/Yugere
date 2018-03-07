@@ -24,7 +24,7 @@
     <!-- Style CSS -->
     <link href="<?=base_url('css/bootstrap.min.css')?>" media="screen" rel="stylesheet">
     <link href="<?=base_url('css/font-awesome.css')?>" media="screen" rel="stylesheet">
-    <link href="<?=base_url('css/style.css')?>" media="screen" rel="stylesheet">
+    <link href="<?=base_url('css/style20180304.min.css')?>" media="screen" rel="stylesheet">
 </head>
 <body>
 
