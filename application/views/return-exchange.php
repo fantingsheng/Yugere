@@ -12,10 +12,10 @@
 <html lang="en">
 <!--<![endif]-->
 <head>
-    <title>「Yugere」悦己服装定制 | 提供你最满意的定制服务</title>
+    <title>定制注意事项 | 悦己高级服装定制</title>
     <meta charset="UTF-8">
     <meta name="author" content="Timfan">
-    <meta name="keywords" content="服装定制,悦己,来图定制,打版定制,量身定制,一对一定制">
+    <meta name="keywords" content="服装定制,悦己,来图定制,打版定制,量身定制,一对一定制,高级版型,无锡服装定制,服装加工">
     <meta name="description" content="来图来样定制，量身定制，提供一对一精致的定制服务" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -24,7 +24,7 @@
     <!-- Style CSS -->
     <link href="<?=base_url('css/bootstrap.min.css')?>" media="screen" rel="stylesheet">
     <link href="<?=base_url('css/font-awesome.css')?>" media="screen" rel="stylesheet">
-    <link href="<?=base_url('css/style.css')?>" media="screen" rel="stylesheet">
+    <link href="<?=base_url('css/style20180304.min.css')?>" media="screen" rel="stylesheet">
 </head>
 <body>
 
@@ -60,21 +60,4 @@
 <?php include "common/shop-cart.php" ?>
 <!-- End Shop Cart -->
 
-<!-- main JS libs  -->
-<script src="<?=base_url('js/lib/jquery-1.12.2.min.js')?>"></script>
-<script src="<?=base_url('js/lib/bootstrap.min.js')?>"></script>
-<!-- Modernizr Library -->
-<script src="<?=base_url('js/lib/modernizr.min.js')?>"></script>
-
-<!--[if lt IE 9]>
-<script src="<?=base_url('js/lib/html5shiv.js')?>"></script>
-<script src="<?=base_url('js/lib/respond.min.js')?>"></script>
-<![endif]-->
-
-<!-- Input Numer 'Spinner' -->
-<script src="<?=base_url('js/jquery.spinner.js')?>"></script>
-
-<!--General JS-->
-<script src="<?=base_url('js/general.js')?>"></script>
-</body>
-</html>
+<?php include "common/footer.php" ?>

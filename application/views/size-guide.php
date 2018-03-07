@@ -12,10 +12,10 @@
 <html lang="en">
 <!--<![endif]-->
 <head>
-    <title>「Yugere」悦己服装定制 | 提供你最满意的定制服务</title>
+    <title>尺寸指南 | 悦己高级服装定制</title>
     <meta charset="UTF-8">
     <meta name="author" content="Timfan">
-    <meta name="keywords" content="服装定制,悦己,来图定制,打版定制,量身定制,一对一定制">
+    <meta name="keywords" content="服装定制,悦己,来图定制,打版定制,量身定制,一对一定制,高级版型,无锡服装定制,服装加工">
     <meta name="description" content="来图来样定制，量身定制，提供一对一精致的定制服务" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="<?=base_url('favicon.ico')?>" type="image/x-icon">

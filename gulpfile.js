@@ -32,73 +32,48 @@ gulp.task('default',function(){
  
 //css处理
 gulp.task('minifycss',function(){
-   return gulp.src('/Users/fantingsheng/static-file/css/slightech.css')      //设置css
-       .pipe(concat('slightech'+myDate+'.css'))      //合并css文件到"order_query"
-       .pipe(gulp.dest('dist/css'))           //设置输出路径
+   return gulp.src('/Users/fantingsheng/Yugere/css/style.css')      //设置css
+       .pipe(concat('slightech'+'.css'))      //合并css文件到"order_query"
+       .pipe(gulp.dest('css'))           //设置输出路径
        .pipe(clean())
        .pipe(rename({suffix:'.min'}))         //修改文件名
        .pipe(minifycss())                    //压缩文件
-       .pipe(gulp.dest('dist/css'))            //输出文件目录
-       .pipe(notify({message:'css task ok'}));   //提示成功
-});
-
-//css处理
-gulp.task('minifymyntcss',function(){
-   return gulp.src('/Users/fantingsheng/static-file/css/slightech-mgps.css')      //设置css
-       .pipe(concat('slightech-mgps'+myDate+'.css'))      //合并css文件到"order_query"
-       .pipe(gulp.dest('dist/css'))           //设置输出路径
-       .pipe(clean())
-       .pipe(rename({suffix:'.min'}))         //修改文件名
-       .pipe(minifycss())                    //压缩文件
-       .pipe(gulp.dest('dist/css'))            //输出文件目录
+       .pipe(gulp.dest('css'))            //输出文件目录
        .pipe(notify({message:'css task ok'}));   //提示成功
 });
 
 //JS处理
 gulp.task('minifyjs',function(){
    return gulp.src([
-      '/Users/fantingsheng/static-file/js/slightech.js',
+      '/Users/fantingsheng/static-file/js/general.js',
     ])  //选择合并的JS
-       .pipe(concat('slightech'+myDate+'.js'))   //合并js
-       .pipe(gulp.dest('dist/js'))         //输出
+       .pipe(concat('general'+'.js'))   //合并js
+       .pipe(gulp.dest('js'))         //输出
        .pipe(clean())
        .pipe(rename({suffix:'.min'}))     //重命名
        .pipe(uglify())                    //压缩
-       .pipe(gulp.dest('dist/js'))            //输出 
+       .pipe(gulp.dest('js'))            //输出 
        .pipe(notify({message:"js task ok"}));    //提示
 });
 
 //合并js文件
 gulp.task('scripts-concat',function(){
   gulp.src([
-    '/Users/fantingsheng/static-file/js/bootstrap-carousel.min.js', 
-    '/Users/fantingsheng/static-file/js/bootstrap-transition.min.js',
-    '/Users/fantingsheng/static-file/js/bootstrap-collapse.min.js',
-    '/Users/fantingsheng/static-file/js/bootstrap-dropdown.min.js',
-    '/Users/fantingsheng/static-file/js/bootstrap-modal.min.js',
-    '/Users/fantingsheng/static-file/js/bootstrap-tab.min.js',
-    '/Users/fantingsheng/static-file/js/bootstrap-scrollspy.min.js',
-    '/Users/fantingsheng/static-file/js/jquery.form.min.js',
-    '/Users/fantingsheng/static-file/js/jquery.swipebox.min.js',
-    '/Users/fantingsheng/static-file/js/scrollReveal.min.js',
-    '/Users/fantingsheng/static-file/js/jquery.lazyload.js',
-    '/Users/fantingsheng/static-file/js/fastclick.min.js'
+    '/Users/fantingsheng/Yugere/js/bootstrap-carousel.min.js', 
+    '/Users/fantingsheng/Yugere/js/bootstrap-transition.min.js',
+    '/Users/fantingsheng/Yugere/js/bootstrap-collapse.min.js',
+    '/Users/fantingsheng/Yugere/js/bootstrap-dropdown.min.js',
+    '/Users/fantingsheng/Yugere/js/bootstrap-modal.min.js',
+    '/Users/fantingsheng/Yugere/js/bootstrap-tab.min.js',
+    '/Users/fantingsheng/Yugere/js/bootstrap-scrollspy.min.js',
+    '/Users/fantingsheng/Yugere/js/jquery.form.min.js',
+    '/Users/fantingsheng/Yugere/js/jquery.swipebox.min.js',
+    '/Users/fantingsheng/Yugere/js/scrollReveal.min.js',
+    '/Users/fantingsheng/Yugere/js/jquery.lazyload.js',
+    '/Users/fantingsheng/Yugere/js/fastclick.min.js'
   ])
     .pipe(concat('slightech-base.min.js'))
     .pipe(clean())
     .pipe(gulp.dest('js/'))
-    .pipe(notify({message:'concat task ok'}));   //提示成功
-}); 
-
-//合并css文件
-gulp.task('styles-concat',function(){
-  gulp.src([
-    '/Users/fantingsheng/static-file/css/bootstrap.min.css', 
-    '/Users/fantingsheng/static-file/css/bootstrap-responsive.min.css',
-    '/Users/fantingsheng/static-file/css/swipebox.min.css'
-  ])
-    .pipe(concat('slightech-base.min.css'))
-    .pipe(clean())
-    .pipe(gulp.dest('css/'))
     .pipe(notify({message:'concat task ok'}));   //提示成功
 }); 
