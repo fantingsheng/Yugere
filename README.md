@@ -12,5 +12,7 @@ online shop system
 6. 联系我们
 7. 帮助中心
 
-![Image text](https://raw.githubusercontent.com/fantingsheng/Yugere/master/images/Help/225407%402x.png)
+![Image text](https://raw.githubusercontent.com/fantingsheng/Yugere/master/images/Preview/preview1.png)
+![Image text](https://raw.githubusercontent.com/fantingsheng/Yugere/master/images/Preview/preview2.png)
+![Image text](https://raw.githubusercontent.com/fantingsheng/Yugere/master/images/Preview/preview3.png)
 
