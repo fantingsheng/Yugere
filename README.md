@@ -1,6 +1,10 @@
 # Yugere Studio 悦己服装工作室
 
+## 介绍
+
 online shop system
+悦己服装工作室官网，提供在线品牌介绍，宣传视频，在线商店预览，企业咨询等功能
+
 
 ## 功能
 
@@ -15,4 +19,5 @@ online shop system
 ![Image text](https://raw.githubusercontent.com/fantingsheng/Yugere/master/images/Preview/preview1.png)
 ![Image text](https://raw.githubusercontent.com/fantingsheng/Yugere/master/images/Preview/preview2.png)
 ![Image text](https://raw.githubusercontent.com/fantingsheng/Yugere/master/images/Preview/preview3.png)
+
 
