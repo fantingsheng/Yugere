@@ -84,9 +84,11 @@
             <a href="/" class="theme-logo">Yugere</a>
         </div>
         <div class="header-cart">
+            <!--
             <a href="#" class="cart-link">
                 <strong>购物车</strong>
                 <span>2</span></a>
+            -->
         </div>
     </header>
     <!-- End Header -->
