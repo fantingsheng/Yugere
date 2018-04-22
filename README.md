@@ -12,3 +12,5 @@ online shop system
 6. 联系我们
 7. 帮助中心
 
+![Image text](https://raw.github.com/yourName/repositpry/master/yourprojectName/img-folder/test.jpg)
+
