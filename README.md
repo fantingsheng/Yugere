@@ -2,7 +2,7 @@
 
 #### 介绍
 
-online shop system
+Offcial web online shop
 悦己服装工作室官网，提供在线品牌介绍，宣传视频，在线商店预览，官方博客，企业咨询等功能
 
 在线预览 http://www.yugere.com/
