@@ -53,6 +53,7 @@
                 <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
             </li>
         </ul>
+        <div style="margin-top: 10px; "><a style="color: #999;font-size: 12px;" href="http://www.miitbeian.gov.cn/">苏ICP备16044739号-2</a></div>
     </div>
 </div>
 <!--Wechat modal-->

@@ -28,8 +28,6 @@
 </head>
 <body class="shop-page shop-page-product-list">
      
-
-
 <!-- Spinner -->
 <div class="spinner-container">
     <div class="spinner-dot"></div>
